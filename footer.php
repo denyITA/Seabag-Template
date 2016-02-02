@@ -196,6 +196,13 @@ fbq('init', '456290021187239');
 fbq('track', "PageView");
 fbq('track', 'ViewContent');
 </script>
+<script>
+$('.carousel').carousel({
+    interval: 2000,
+    pause: "hover",
+    keyboard: true
+});
+</script>
 <noscript><img height="1" width="1" style="display:none"
 src="https://www.facebook.com/tr?id=456290021187239&ev=PageView&noscript=1"
 /></noscript>

@@ -110,9 +110,38 @@ if ( wp_is_mobile() ) : ?>
 <?php endif;
 if ( !wp_is_mobile() ) : ?>
 
-	<div class="quadro-testata">
-		<!-- <div id="triggerino"><i class="fa fa-play-circle"></i></div> -->
-	</div>
+
+<div id="carousel-example-generic" class="quadro-testata carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+        <div class="item quadro-testata active"></div>
+      </div>
+    <div class="item">
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/seabag impermeabile (Large).jpg" alt="...">
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+    <div class="item">
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/Seabag6 (Large).jpg" alt="...">
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+  </div>
+
+  <!-- Controls -->
+
+
+</div>
 
 	<!--
 	<div id="animatedHeader" class="filmato">
