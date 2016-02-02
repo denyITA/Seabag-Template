@@ -1,0 +1,1505 @@
+/*
+ *Theme Name: Seabag
+ *
+ *Description: Interamente sviluppato da Daniele Irsuti
+ *Author: Daniele Irsuti
+ *Author URI: http://www.danieleirsuti.com
+ *Version: 1.0.1
+ *Tags: two-columns, fluid-layout, fixed-layout, custom-background, microformats, custom-menu
+ *Text Domain: Seabag
+ *Insonnia WordPress theme, Copyright (C) 2015 Daniele Irsuti
+ *Insonnia WordPress theme is licensed under the GPL. */
+/*	Start */
+/* line 15, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+body {
+  color: #333;
+  font-family: 'Raleway', sans-serif;
+  -webkit-font-smoothing: antialiased; }
+
+/* line 21, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+p {
+  text-rendering: optimizeLegibility; }
+
+/* line 24, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+br {
+  display: block;
+  content: " ";
+  margin: 10px 0; }
+
+@font-face {
+  font-family: world of water;
+  src: url(font/world_of_water.ttf); }
+
+/* line 34, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+.img-testata {
+  width: 100%; }
+
+/* line 37, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+.made {
+  padding: 10px;
+  transform: translateX(0%);
+  text-align: center; }
+  /* line 42, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  .made b {
+    font-weight: 300;
+    letter-spacing: 1.65px;
+    position: relative;
+    text-transform: uppercase;
+    top: -11px;
+    font-size: 11.01px;
+    margin-left: -3px; }
+
+/* line 51, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+.bandiera span {
+  margin-left: -4px; }
+
+/* line 54, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+.navbar {
+  border-bottom: none; }
+
+/* line 65, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+.navbar-nav > li > a {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: #000;
+  text-shadow: 1px 1px 8px rgba(82, 72, 72, 0.38);
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 3px; }
+
+/* line 76, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+.nav > li > a:focus, .nav > li > a:hover {
+  background: transparent;
+  color: #2A4B9B;
+  transition: 1s; }
+
+/* line 81, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+.filmato + .daBox {
+  top: 100vh; }
+
+/* line 84, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+.daBox {
+  background: transparent;
+  position: relative;
+  transition: 1.5s; }
+
+/* line 89, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+.giuseppe {
+  background: #FFF;
+  background: rgba(255, 255, 255, 0.6); }
+
+/* line 93, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+.filmato {
+  min-width: 100%;
+  height: 100%;
+  position: fixed; }
+
+/* line 98, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+.video {
+  min-width: 100%;
+  min-height: 100%;
+  position: fixed;
+  top: 0px;
+  z-index: -1; }
+
+/* line 105, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+.navbar-header {
+  height: 120px; }
+  /* line 107, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  .navbar-header img {
+    position: absolute;
+    top: -35px;
+    width: 160px; }
+
+/* line 112, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+\::-webkit-scrollbar {
+  width: 12px; }
+
+/* line 115, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+\::-webkit-scrollbar-track {
+  background-color: #eaeaea;
+  border-left: 1px solid #ccc; }
+
+/* line 119, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+\::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 10px; }
+  /* line 122, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  \::-webkit-scrollbar-thumb:hover {
+    background-color: #F4D03F; }
+
+/* line 125, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+\::selection, ::-webkit-selection {
+  background: #F4D03F;
+  color: #FFF; }
+
+/* line 129, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+.mobile {
+  display: none; }
+
+/*.logo:after {
+ *	content: "";
+ *	display: block;
+ *	position: fixed;
+ *	width: 100%;
+ *	height: 100px;
+ *	top: 0px;
+ *	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2I2ZDBlYyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMCIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+ *	background: -moz-linear-gradient(top,  rgba(182,208,236,1) 0%, rgba(255,255,255,0) 100%);
+ *	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(182,208,236,1)), color-stop(100%,rgba(255,255,255,0)));
+ *	background: -webkit-linear-gradient(top,  rgba(182,208,236,1) 0%,rgba(255,255,255,0) 100%);
+ *	background: -o-linear-gradient(top,  rgba(182,208,236,1) 0%,rgba(255,255,255,0) 100%);
+ *	background: -ms-linear-gradient(top,  rgba(182,208,236,1) 0%,rgba(255,255,255,0) 100%);
+ *	background: linear-gradient(to bottom,  rgba(182,208,236,1) 0%,rgba(255,255,255,0) 100%);
+ *	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b6d0ec', endColorstr='#00ffffff',GradientType=0 );
+ *
+ *
+ *} */
+/* line 151, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+.fakenav {
+  background-color: #FFF;
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  opacity: 0;
+  top: 0px;
+  box-shadow: #4F4F4F 1px 1px 15px;
+  z-index: 99; }
+
+/* line 161, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+nav.navbar {
+  z-index: 100; }
+
+/* line 164, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+.page-header {
+  border-bottom: solid 1px #4183D7; }
+
+/* line 167, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+.bandiera {
+  text-align: center; }
+
+/* line 170, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+.divisore-verde {
+  width: 33px;
+  border-top: solid 4px green;
+  display: inline-block;
+  margin-left: 0px; }
+
+/* line 177, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+.divisore-bianco {
+  width: 33px;
+  border-top: solid 4px #FFF;
+  display: inline-block; }
+
+/* line 183, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+.divisore-rosso {
+  width: 33px;
+  border-top: solid 4px red;
+  display: inline-block; }
+
+/* line 189, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+.testata {
+  padding-top: 25px;
+  padding-bottom: 25px; }
+
+/* line 193, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+.quadro-testata {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: url(http://seabag.hol.es/wp-content/uploads/2015/07/SEABAG-ROSSA-IN-SPIAGGIA.jpg);
+  background-position: center center;
+  background-size: cover; }
+
+/* line 201, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+.customize-support {
+  margin-top: -33px; }
+  /* line 202, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  .customize-support #wpadminbar {
+    display: none; }
+
+/* line 206, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+header h1 {
+  text-transform: uppercase;
+  padding-top: 10px;
+  font-size: 3em;
+  padding-bottom: 5px;
+  color: #000;
+  text-shadow: 1px 1px 1px #BEBEBE; }
+
+/* line 216, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+span.char1 {
+  font-size: 1.5em; }
+
+/* line 219, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+header h5 {
+  font-weight: 300; }
+
+/* line 222, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+#brand {
+  text-align: left;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+  /* line 226, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  #brand h3 {
+    color: #428bca;
+    border-bottom: 2px solid #CDE;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    text-align: center;
+    font-weight: 400; }
+  /* line 234, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  #brand p {
+    color: #888;
+    font-size: 12px; }
+  /* line 237, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  #brand figure {
+    width: 100%;
+    text-align: center; }
+  /* line 240, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  #brand img {
+    max-width: 100%;
+    height: 150px;
+    width: auto; }
+
+/* line 245, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+.hideP::-webkit-scrollbar-track {
+  background-color: #FFF;
+  border: none; }
+
+/* line 250, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+#seabagInfo .panel-heading {
+  padding: 0px; }
+
+/* line 252, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+#seabagInfo .panel-body {
+  position: relative;
+  height: 700px;
+  padding-top: 130px;
+  background-color: rgba(255, 255, 255, 0.65);
+  animation: onesto 4s ease-out;
+  -webkit-animation: onesto 4s ease-out;
+  -o-animation: onesto 4s ease-out;
+  -moz-animation: onesto 4s ease-out;
+  font-size: 1.15em;
+  box-shadow: 1px 1px 0.1px rgba(0, 0, 0, 0.17); }
+
+/* line 263, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+#seabagInfo .panel-default {
+  border: none;
+  position: relative; }
+
+/* line 267, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+#seabagInfo .panel-group .panel + .panel {
+  margin-top: 0px;
+  overflow: hidden; }
+
+/* line 270, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+#seabagInfo .panel-group .panel-heading + .panel-collapse > .list-group {
+  border: none; }
+
+@-webkit-keyframes onesto {
+  from {
+    left: -100%; }
+  to {
+    left: 0%; } }
+
+@keyframes onesto {
+  from {
+    left: -100%; }
+  to {
+    left: 0%; } }
+
+/* line 289, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+.panel-group .panel-heading + .panel-collapse > .panel-body {
+  border: none; }
+
+/* line 293, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+#seabagInfo .panel-collapse {
+  position: absolute;
+  top: 0px;
+  width: 365px;
+  max-width: 100%;
+  border-top: none !important; }
+
+/* line 299, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+#seabagInfo a {
+  border-top: 1px solid #dad9d9;
+  height: 400px;
+  display: block;
+  color: #333;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+  transition: 1s; }
+  /* line 300, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  #seabagInfo a:focus .bgCover, #seabagInfo a:hover .bgCover {
+    opacity: 1; }
+
+/* line 311, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+#seabagInfo .collapsed {
+  height: 160px; }
+
+/* line 313, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+#seabagInfo .bgCover {
+  width: 100%;
+  opacity: 0;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  background-position: bottom center !important;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  -webkit-transition: opacity 0.2s ease-out;
+  transition: opacity 0.2s ease-out; }
+
+/* line 326, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+#seabagInfo a span {
+  display: block;
+  line-height: 60px;
+  color: #333;
+  position: relative;
+  font-size: 2em;
+  margin: 50px 0 0;
+  font-weight: 300;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-transition: .2s ease-out;
+  transition: .2s ease-out; }
+
+/* line 339, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+#seabagInfo a:focus span, #seabagInfo a:hover span {
+  color: #fff;
+  margin: 40px 0 0; }
+
+/* line 343, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+#seabagInfo a[aria-expanded="true"] span {
+  color: #FFF;
+  margin: 40px 0 0; }
+
+/* line 346, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+#seabagInfo a[aria-expanded="true"] .bgCover {
+  opacity: 1; }
+
+/* line 348, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+#seabagInfo .panel-group {
+  margin: 0px; }
+
+/* line 351, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+.cerchiopiccolo, .cerchiogrande {
+  border-radius: 50%; }
+
+/* line 354, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+.piu {
+  color: #FFF;
+  display: block;
+  background-color: #E30613;
+  position: absolute;
+  z-index: 1;
+  height: 100px;
+  width: 100px;
+  vertical-align: bottom;
+  -webkit-transform: scale(1.2) rotate(-45deg) translate(0px);
+  transform: scale(1.2) rotate(-45deg) translate(0px);
+  -moz-transform: scale(1.2) rotate(-45deg) translate(0px);
+  top: -50px;
+  text-align: center;
+  left: -50px;
+  padding-top: 75px; }
+
+@-webkit-keyframes teloparo {
+  0% {
+    opacity: 20; }
+  50% {
+    opacity: 10; }
+  100% {
+    opacity: 0; } }
+
+@keyframes teloparo {
+  0% {
+    opacity: 20; }
+  50% {
+    opacity: 10; }
+  100% {
+    opacity: 0; } }
+
+/* line 393, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+.tp {
+  background: #CCC;
+  position: relative;
+  height: 200px;
+  text-align: center;
+  top: -110px;
+  opacity: 0;
+  z-index: 1;
+  animation: teloparo 7s ease-in-out;
+  -moz-animation: teloparo 7s ease-in-out;
+  -o-animation: teloparo 7s ease-in-out;
+  -webkit-animation: teloparo 7s ease-in-out; }
+  /* line 405, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  .tp .tpbg {
+    background: #CCC;
+    position: absolute;
+    height: 800px;
+    width: 100%;
+    top: 42px; }
+  /* line 411, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  .tp .cerchiopiccolo {
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: #E30613;
+    position: relative;
+    top: -31px;
+    z-index: 1;
+    animation: cerchietto 4s ease-in-out;
+    -webkit-animation: cerchietto 4s ease-in-out;
+    -moz-animation: cerchietto 4s ease-in-out;
+    -o-animation: cerchietto 4s ease-in-out;
+    left: 30px; }
+  /* line 425, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  .tp .cerchiogrande {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #304999;
+    position: relative;
+    animation: cerchione 4s ease-in-out;
+    -webkit-animation: cerchione 4s ease-in-out;
+    -o-animation: cerchione 4s ease-in-out;
+    -moz-animation: cerchione 4s ease-in-out;
+    right: 35px; }
+
+@-webkit-keyframes cerchietto {
+  0% {
+    opacity: 0;
+    left: -60px; }
+  100% {
+    opacity: 1;
+    left: 30px; } }
+
+@keyframes cerchietto {
+  from {
+    opacity: 0;
+    left: -60px; }
+  to {
+    opacity: 1;
+    left: 30px; } }
+
+@-webkit-keyframes cerchione {
+  0% {
+    opacity: 0;
+    right: -65px; }
+  100% {
+    opacity: 1;
+    right: 35px; } }
+
+@keyframes cerchione {
+  from {
+    opacity: 0;
+    right: -65px; }
+  to {
+    opacity: 1;
+    right: 35px; } }
+
+/* line 478, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+.tplogo {
+  position: relative;
+  height: 65px;
+  text-align: center;
+  top: -15px;
+  z-index: 1; }
+  /* line 484, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  .tplogo .tpbg {
+    position: absolute;
+    height: 65px;
+    width: 100px;
+    display: inline;
+    left: 41%; }
+  /* line 490, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  .tplogo .cerchiopiccolo {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #E30613;
+    position: relative;
+    top: -18px;
+    z-index: 1;
+    left: 7px; }
+  /* line 500, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  .tplogo .cerchiogrande {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #304999;
+    position: relative;
+    right: 35px; }
+
+/* line 509, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+.album figure {
+  width: 25%;
+  height: 260px;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  background-color: #CCC; }
+  /* line 516, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  .album figure img {
+    width: 130%;
+    min-height: 100%;
+    position: relative;
+    right: 25%; }
+
+/* line 523, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+figure .lente {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #FFF;
+  top: 0%;
+  opacity: 0; }
+  /* line 531, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  figure .lente .glyphicon {
+    display: block;
+    margin: auto;
+    font-size: 3em;
+    text-align: center;
+    top: 40%;
+    transition: .9s; }
+  /* line 538, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  figure .lente:hover {
+    opacity: 0.6;
+    transition: .9s; }
+    /* line 541, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+    figure .lente:hover .glyphicon {
+      top: 50%; }
+
+/* line 544, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+.mosaico {
+  position: relative;
+  background: #FFF; }
+  /* line 547, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  .mosaico iframe {
+    width: 100%;
+    height: 100%; }
+  /* line 550, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  .mosaico img {
+    width: 100%;
+    min-height: 100%; }
+
+/* line 554, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+.riga1 {
+  height: auto;
+  overflow: hidden; }
+
+/* line 558, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+.riga2 {
+  overflow: hidden; }
+
+/* line 561, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+.riga1 > *, .riga2 > * {
+  float: left;
+  height: 24vw;
+  position: relative; }
+
+/* line 567, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+.riga1 .photo1 {
+  width: 25%;
+  border-right: solid 1px #FFF; }
+
+/* line 570, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+.riga1 .photo2 {
+  width: 25%; }
+
+/* line 572, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+.riga1 .video1 {
+  width: 50%;
+  border-right: solid 1px #FFF; }
+
+/* line 576, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+.riga2 {
+  height: auto;
+  border-top: solid 1px #FFF; }
+  /* line 579, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  .riga2 .photo1 {
+    width: 30%;
+    border-right: solid 1px #FFF; }
+  /* line 582, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  .riga2 .photo2 {
+    width: 15%;
+    border-right: solid 1px #FFF; }
+  /* line 585, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  .riga2 .video1 {
+    width: 25%;
+    border-right: solid 1px #FFF; }
+  /* line 588, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  .riga2 .photo3 {
+    width: 30%; }
+
+/* line 591, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+.videoPlayer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.28); }
+
+/* line 597, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+div[class^="video"] .fa-play-circle-o {
+  color: #FFF;
+  position: absolute;
+  top: 45%;
+  text-align: center;
+  width: 100%; }
+
+/* line 604, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+#cosae {
+  font-weight: 300; }
+  /* line 606, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  #cosae h3 {
+    font-size: 2em;
+    text-align: center;
+    color: #428bca;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 300; }
+    /* line 613, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+    #cosae h3:after {
+      display: block;
+      content: "";
+      border: 1px solid #CDE;
+      margin: auto;
+      width: 300px;
+      max-width: 100%; }
+  /* line 620, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  #cosae p {
+    margin-top: 10px; }
+  /* line 622, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  #cosae img {
+    width: 150px;
+    max-width: 100%; }
+
+/* line 626, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+.theSpacing > div {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+/* line 630, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+#mission {
+  background: #F4D03F;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+
+/* line 635, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+.bigphoto {
+  max-height: 400px;
+  width: 100%;
+  overflow: hidden; }
+  /* line 639, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  .bigphoto img {
+    width: 100%; }
+
+/* line 643, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+#custom h4 {
+  border-bottom: 2px solid #CDE;
+  color: #428bca; }
+
+/* line 646, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+#custom p {
+  color: #888;
+  font-size: 12px; }
+
+/* line 649, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+#custom img {
+  position: relative;
+  right: 30px;
+  -webkit-transition: all 2.5s ease-out; }
+
+/* line 653, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+#custom .floatingimg img {
+  right: 500px;
+  -webkit-transition: all 2.5s ease-out; }
+
+/* line 657, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+#prodotti h3 {
+  font-size: 2em; }
+
+/* line 660, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+#aboutus {
+  border-top: 1px solid #dad9d9;
+  padding-bottom: 20px;
+  background: #FFF; }
+  /* line 664, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  #aboutus h3 {
+    text-transform: uppercase;
+    font-size: 2em;
+    padding-top: 40px; }
+  /* line 668, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  #aboutus blockquote {
+    font-size: 1.15em; }
+
+/* #aboutus h3:after {
+ *	content: "";
+ *	width: 170px;
+ *	margin: auto;
+ *	height: 1px;
+ *	border-bottom: 2px solid #CDE;
+ *
+ *	display: block;
+ *	margin-top: 10px
+ *} */
+/* line 682, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+div[class^="immagini-sparate"] figure {
+  width: 150px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: auto;
+  max-width: 95%;
+  width: 200px; }
+
+/* line 690, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+.immagini-sparate-5 {
+  padding: 0px;
+  height: 100%;
+  overflow: hidden; }
+
+/* line 695, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+.wrap {
+  padding-bottom: 7.5px;
+  padding-top: 7.5px; }
+
+/* line 699, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+div[class^="immagini-sparate"] img {
+  width: 100%;
+  height: 100%; }
+
+/* line 703, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+#telopareo {
+  background: #E8D395;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  position: relative;
+  text-align: center; }
+  /* line 709, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  #telopareo h3 {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: 25px; }
+
+/* line 716, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+.plus {
+  border-top: 1px solid #dad9d9;
+  font-size: 7em;
+  color: #E30613;
+  height: 160px; }
+
+/* line 722, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+.parallax-window {
+  min-height: 400px;
+  background: transparent; }
+
+/* line 726, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+.evidenzia {
+  background: #999999; }
+
+/* line 729, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+.corporate {
+  margin-top: 60px;
+  margin-bottom: 60px; }
+  /* line 732, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  .corporate figure {
+    overflow: hidden;
+    max-height: 350px; }
+  /* line 737, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  .corporate > div {
+    padding-top: 10px; }
+
+/* line 740, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+.corporate-content {
+  float: left;
+  width: 80%;
+  padding-right: 15px;
+  padding-left: 15px; }
+
+/* line 746, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+.organigramma {
+  position: relative;
+  overflow: hidden;
+  min-height: 900px; }
+  /* line 751, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  .organigramma div:nth-child(1) {
+    width: 250px !important;
+    position: absolute;
+    top: 0px;
+    height: 250px;
+    right: 40%;
+    background-color: red; }
+    /* line 758, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+    .organigramma div:nth-child(1) p {
+      position: relative;
+      left: -255px;
+      text-align: right;
+      top: -150px; }
+  /* line 763, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  .organigramma div[class^="wp-caption"] {
+    border-radius: 50%; }
+  /* line 765, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  .organigramma div:nth-child(2) {
+    width: 190px !important;
+    position: absolute;
+    top: 240px;
+    width: 190px;
+    height: 190px;
+    right: 10%;
+    background-color: red; }
+    /* line 773, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+    .organigramma div:nth-child(2) p {
+      position: relative;
+      right: 45px;
+      top: -60px; }
+  /* line 777, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  .organigramma div:nth-child(3) {
+    width: 190px !important;
+    position: absolute;
+    top: 36000px;
+    width: 190px;
+    height: 190px;
+    right: 10%;
+    background-color: red; }
+    /* line 785, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+    .organigramma div:nth-child(3) p {
+      position: relative;
+      right: 45px;
+      top: -60px; }
+  /* line 789, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  .organigramma div:nth-child(4) {
+    width: 220px !important;
+    position: absolute;
+    top: 360px;
+    width: 220px;
+    height: 220px;
+    right: 70%;
+    background-color: red; }
+    /* line 797, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+    .organigramma div:nth-child(4) p {
+      position: relative;
+      left: 230px;
+      top: -170px;
+      text-align: left; }
+  /* line 802, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  .organigramma div:nth-child(5) {
+    width: 190px !important;
+    position: absolute;
+    top: 590px;
+    width: 190px;
+    height: 190px;
+    right: 40%;
+    background-color: red; }
+    /* line 810, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+    .organigramma div:nth-child(5) p {
+      position: relative;
+      right: 45px;
+      top: -60px; }
+  /* line 814, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  .organigramma div:nth-child(6) {
+    width: 190px !important;
+    position: absolute;
+    top: 690px;
+    width: 190px;
+    height: 190px;
+    right: 20%;
+    background-color: red; }
+    /* line 822, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+    .organigramma div:nth-child(6) p {
+      position: relative;
+      right: 45px;
+      top: -60px; }
+  /* line 826, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  .organigramma div:nth-child(7) {
+    width: 190px !important;
+    position: absolute;
+    top: 690px;
+    width: 190px;
+    height: 190px;
+    right: 80%;
+    background-color: red; }
+    /* line 834, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+    .organigramma div:nth-child(7) p {
+      position: relative;
+      right: 45px;
+      top: -60px; }
+  /* line 838, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  .organigramma img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%; }
+
+/* organigramma */
+/* /organigramma */
+/* organigramma */
+/* /organigramma */
+/* organigramma */
+/* /organigramma */
+/* /organigramma */
+/* /organigramma */
+/* /organigramma */
+/* /organigramma */
+/* /organigramma */
+/* line 863, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+footer {
+  background: #333333;
+  color: #FFF; }
+  /* line 866, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  footer a {
+    color: #C7C7C7; }
+  /* line 868, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  footer .current_page_item {
+    color: #FFF;
+    text-decoration: underline; }
+  /* line 871, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  footer a:hover {
+    color: #FFF;
+    text-decoration: none;
+    transition: 0.5s; }
+  /* line 875, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  footer ul li {
+    list-style: none;
+    display: inline-block; }
+
+/* line 879, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+.servizi {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 12px; }
+
+/* line 884, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+.menuservizi ul li {
+  margin-left: 7px;
+  font-size: 14px;
+  font-weight: 600; }
+
+/* line 889, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+#menu-eshop, #menu-social {
+  padding-left: 0px; }
+
+/* line 892, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+.translate ul {
+  padding-left: 0px; }
+  /* line 894, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  .translate ul li {
+    font-size: 10px; }
+
+/*
+ *footer .servizi li:before {
+ *	content: "\f054";
+ *	font-family: "fontawesome";
+ *    margin-right: 5px;
+ *    position: relative;
+ *    right: 0px;
+ *    transition: 0.5s;
+ *}
+ *
+ *footer .servizi li:hover:before {
+ *	right: -3px;
+ *	transition: 0.5s;
+ *
+ *} */
+/* line 913, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+.modal-content {
+  margin-top: 120px; }
+
+/* line 916, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+.list-seabagInfo {
+  margin-top: 50px; }
+
+/* line 919, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+.seabagInfo-wrapper {
+  -moz-transition: width 0.4s;
+  -o-transition: width 0.4s;
+  -webkit-transition: width 0.4s;
+  transition: width 0.4s; }
+
+/* line 925, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+.seabagInfo {
+  position: relative;
+  padding-left: 180px;
+  padding-right: 75px;
+  height: 150px;
+  margin-bottom: 30px;
+  background-color: #FFF;
+  -moz-border-radius: 150px;
+  -webkit-border-radius: 150px;
+  border-radius: 150px;
+  cursor: pointer; }
+  /* line 936, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  .seabagInfo .img-wrapper {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    background-color: #CDE;
+    padding: 10px;
+    z-index: 1000;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s; }
+    /* line 950, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+    .seabagInfo .img-wrapper img {
+      -moz-border-radius: 100px;
+      -webkit-border-radius: 100px;
+      border-radius: 100px;
+      -moz-transition: all 0.2s;
+      -o-transition: all 0.2s;
+      -webkit-transition: all 0.2s;
+      transition: all 0.2s;
+      width: 150px;
+      height: auto;
+      background: #FFF; }
+  /* line 961, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  .seabagInfo h3 {
+    height: 75px;
+    line-height: 75px;
+    font-size: 24px;
+    border-bottom: 2px solid #CDE;
+    color: #428bca;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s; }
+  /* line 971, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  .seabagInfo p {
+    color: #888; }
+  /* line 973, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  .seabagInfo a {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    height: 100%;
+    line-height: 150px;
+    text-align: center;
+    width: 100%;
+    background-color: #FFF;
+    font-size: 39px;
+    opacity: 0;
+    color: #428bca !important;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    text-decoration: none !important;
+    -moz-border-radius: 150px;
+    -webkit-border-radius: 150px;
+    border-radius: 150px;
+    text-shadow: 0 1px 1px #AAA; }
+  /* line 996, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  .seabagInfo:hover .img-wrapper {
+    padding: 5px;
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+    transform: rotate(5deg); }
+    /* line 1002, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+    .seabagInfo:hover .img-wrapper img {
+      width: 160px; }
+  /* line 1004, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  .seabagInfo:hover a {
+    opacity: 1; }
+
+/* line 1007, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+.bloc .seabagInfo {
+  padding: 10px;
+  height: 225px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  margin-top: 75px; }
+  /* line 1014, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  .bloc .seabagInfo .img-wrapper {
+    position: relative;
+    top: -85px;
+    width: 170px;
+    left: inherit;
+    margin: auto;
+    margin-bottom: -100px; }
+  /* line 1021, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  .bloc .seabagInfo h3 {
+    font-size: 14px;
+    height: 37.5px;
+    line-height: 37.5px; }
+  /* line 1025, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  .bloc .seabagInfo p {
+    font-size: 12px; }
+  /* line 1027, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  .bloc .seabagInfo a {
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    line-height: 255px; }
+
+/* line 1033, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+#azienda {
+  margin-top: 30px; }
+
+/* line 1036, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+.menu-social-container {
+  text-align: center; }
+  /* line 1038, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  .menu-social-container li {
+    display: inline-block;
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+    font-size: 1.5em;
+    text-rendering: optimizeLegibility; }
+    /* line 1044, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+    .menu-social-container li:nth-child(1) {
+      padding-left: 0px; }
+    /* line 1046, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+    .menu-social-container li:nth-last-child(1) {
+      padding-right: 0px; }
+
+/* line 1049, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+.modal-backdrop {
+  background-color: #CDE; }
+
+/* line 1052, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+.seriusadminbar {
+  position: fixed;
+  bottom: 0px;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 2em;
+  background-color: rgba(14, 14, 14, 0.22);
+  border-top-right-radius: 15px; }
+
+/* line 1063, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+.spot {
+  background: #CDE;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+  /* line 1067, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  .spot h4 {
+    font-weight: bold; }
+  /* line 1069, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  .spot p {
+    font-size: 12px; }
+  /* line 1071, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  .spot blockquote {
+    font-size: 1.15em; }
+
+/* line 1074, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+footer {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+  /* line 1077, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  footer .btn-primary {
+    background: #FF312C;
+    border-color: #FF3733; }
+    /* line 1080, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+    footer .btn-primary:hover, footer .btn-primary:focus, footer .btn-primary:active {
+      background: #F4D03F !important;
+      border-color: #FFCD02 !important; }
+
+/* line 1085, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+#cf .input-group {
+  width: 100%; }
+
+/* line 1088, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+#cf input[type="text"], #cf input[type="email"] {
+  background: #C7C7C7;
+  padding: 20px;
+  font-size: 14px;
+  height: auto; }
+
+/* line 1093, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+#cf textarea {
+  background: #C7C7C7;
+  padding: 20px;
+  font-size: 14px;
+  height: auto; }
+
+/* line 1098, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+#cf label {
+  font-weight: 300;
+  margin-top: 5px; }
+
+/* line 1101, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+#cf textarea {
+  min-height: 267px; }
+
+/* line 1104, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+.btn-submit-sea {
+  border: none;
+  background: #FD2E3A;
+  text-transform: uppercase;
+  color: #FFF;
+  font-weight: 600;
+  margin-top: 15px;
+  transition: 0.5s ease-in-out;
+  letter-spacing: 2px;
+  padding: 15px 25px; }
+
+/* line 1117, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+#cf input::-webkit-input-placeholder, #cf textarea::-webkit-input-placeholder {
+  font-weight: 600;
+  letter-spacing: 1.5px; }
+
+/* line 1120, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+#cf input:-moz-placeholder, #cf textarea:-moz-placeholder {
+  /* Firefox 18- */
+  font-weight: 600;
+  letter-spacing: 1.5px; }
+
+/* line 1124, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+#cf input::-moz-placeholder, #cf textarea::-moz-placeholder {
+  /* Firefox 19+ */
+  font-weight: 600;
+  letter-spacing: 1.5px; }
+
+/* line 1128, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+#cf input:-ms-input-placeholder, #cf textarea:-ms-input-placeholder {
+  font-weight: 600;
+  letter-spacing: 1.5px; }
+
+/* line 1133, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+.btn-submit-sea:hover, .btn-submit-sea:focus {
+  background: #E30613;
+  color: #FFF;
+  transition: 0.5s ease-in-out; }
+
+/* line 1138, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+.servizi:after {
+  display: block;
+  content: "";
+  height: 1px;
+  margin-right: 15px;
+  margin-left: 15px;
+  border-bottom: 1px solid #5a5a5a;
+  padding-bottom: 10px;
+  padding-top: 10px; }
+
+/* line 1148, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+.newsletter {
+  padding-top: 20px; }
+
+/* line 1151, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+.social a {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  line-height: 50px;
+  border-radius: 50%;
+  background: #C7C7C7;
+  color: #333;
+  margin-bottom: 5px; }
+  /* line 1160, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  .social a:hover {
+    color: #286090; }
+  /* line 1162, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  .social a[href*=facebook]:hover {
+    background-color: #3b5998;
+    color: #FFF; }
+  /* line 1165, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  .social a[href*=instagram]:hover {
+    background-color: #3f729b;
+    color: #FFF; }
+  /* line 1168, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  .social a[href*=google]:hover {
+    background-color: #dd4b39;
+    color: #FFF; }
+  /* line 1171, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  .social a[href*=pinterest]:hover {
+    background-color: #FFF;
+    color: #D01D15; }
+
+@media screen and (max-width: 760px) {
+  /* line 1177, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  .nav > li > a:focus, .nav > li > a:hover {
+    background: #FFF; }
+  /* line 1179, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  .quadro-testata {
+    height: 77vh; }
+  /* line 1181, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  .fakenav {
+    height: 50px;
+    opacity: 4 !important; }
+  /* line 1184, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  .navbar-nav > li > a {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background: #FFF;
+    padding-top: 20px; }
+  /* line 1189, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  .navbar-brand {
+    display: none; }
+  /* line 1191, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  .navbar-nav > li > a:nth-last-child(1) {
+    padding-bottom: 20px; }
+  /* line 1193, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  nav .container {
+    margin-top: -120px; }
+  /* line 1195, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  .mobile {
+    display: block;
+    padding-top: 7px;
+    text-align: right;
+    cursor: pointer; }
+    /* line 1200, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+    .mobile .fa-bars {
+      border: solid 1px;
+      border-radius: 5px;
+      padding: 3px 6px 3px 6px; }
+  /* line 1204, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  header h1 {
+    font-size: 2.3em; }
+  /* line 1206, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  .topbar ul {
+    display: none;
+    position: relative;
+    top: -1px; }
+  /* line 1210, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  #seabagInfo a {
+    height: 600px; }
+  /* line 1212, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  .album figure {
+    width: 100%;
+    height: 260px;
+    float: left;
+    overflow: hidden;
+    position: relative; }
+    /* line 1218, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+    .album figure img {
+      right: 0%;
+      width: 100%; } }
+
+/* MOVIMIENTATO */
+/* line 1224, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+#albumDisorder {
+  -webkit-column-count: 3;
+  column-count: 3;
+  -webkit-column-width: 400px;
+  -moz-column-width: 400px;
+  column-width: 400px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  position: relative; }
+  /* line 1233, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  #albumDisorder img {
+    width: 100%;
+    overflow: hidden; }
+    /* line 1236, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+    #albumDisorder img:hover {
+      -webkit-transition: all 0.5s ease;
+      -moz-transition: all 0.5s ease;
+      transition: all 0.5s ease; }
+
+/* line 1241, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+.photosDisorder {
+  box-sizing: border-box;
+  text-align: center;
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  break-inside: avoid-column;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  margin-bottom: 13px; }
+
+/* COMPANY */
+/* line 1256, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+#brandname {
+  background: #6C7A89;
+  position: relative;
+  clear: both; }
+  /* line 1260, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  #brandname h2 {
+    color: #FFF;
+    font-weight: 300;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-transform: uppercase; }
+
+/* line 1267, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+#staff h2 {
+  color: #FFF;
+  font-weight: 300;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-transform: uppercase; }
+
+/* line 1274, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+.grey {
+  margin-top: 40px;
+  border: solid 1px #E9E9E9;
+  background: #FFF;
+  height: 100%;
+  padding: 15px; }
+
+/* line 1281, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+.fronte {
+  padding-top: 40px; }
+  /* line 1283, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  .fronte img {
+    padding: 15px;
+    box-shadow: 0px -4px 9px #cccccc, 0px 4px 9px #cccccc;
+    margin-bottom: 10px;
+    background: white url("http://thumbs.dreamstime.com/t/real-size-blue-millimeter-engineering-paper-file-eps-format-31476375.jpg") repeat scroll 0% 0%; }
+
+/* line 1289, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+.description {
+  position: relative;
+  background-color: #f7f7f7;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  clear: both; }
+  /* line 1296, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  .description:before {
+    content: "";
+    display: block;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent;
+    border-right-width: 28px;
+    border-left-width: 28px;
+    border-top-width: 22px;
+    border-bottom-width: 0;
+    z-index: 1; }
+  /* line 1313, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  .description img {
+    max-width: 100%; }
+
+/* line 1316, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+#brandname ~ .description:before {
+  border-top-color: #6C7A89; }
+
+/* line 1319, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+#staff {
+  background: #5DA3EF; }
+  /* line 1321, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+  #staff ~ .description:before {
+    border-top-color: #5DA3EF; }
+
+/* line 1324, C:/Users/Giuseppe/Documents/Seabag.hol.es/seabag/wp-content/themes/seabagtemplate/css/style.sass */
+.staffImg {
+  margin-top: 30px; }
+
+/*# sourceMappingURL=style.css.map */

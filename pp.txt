@@ -1,0 +1,77 @@
+Cookie Policy
+
+Quando visiti il nostro sito ricevi automaticamente uno o più cookie. La motivazione principale per cui utilizziamo i cookie è quella di accertarci di fornire servizi ottimali.  Usiamo, inoltre, cookie di terze parti per effettuare statistiche e analizzare il comportamento degli utenti. Questa informativa si pone come obiettivo quello di spiegare in dettaglio quali sono i tipi di cookie che usiamo, gli scopi per cui li usiamo e i modi in cui è possibile bloccarli o rimuoverli.
+ 
+
+Che cos'è un cookie?
+
+Un cookie è un piccolo file, solitamente composto da lettere e numeri, che viene scaricato su un dispositivo quando l'utente accede ad alcuni siti web. I cookie sono poi rinviati al sito che li ha originati ad ogni visita successiva. I cookie sono utili perchè permettono ad un sito di riconoscere il browser o il dispositivo dell'utente.
+
+ 
+
+Come bloccare o rimuovere i cookie
+
+Esistono diversi modi per gestire i cookie e altre tecnologie di tracciabilità. Modificando le impostazioni del browser, puoi accettare o rifiutare i cookie o decidere di ricevere un messaggio di avviso prima di accettare un cookie dai siti Web visitati. Ti ricordiamo che disabilitando completamente i cookie nel browser potresti non essere in grado di utilizzare tutte le nostre funzionalità interattive.
+
+Se utilizzi più computer in postazioni diverse, assicurati che ogni browser sia impostato in modo da soddisfare le tue preferenze.
+
+Puoi eliminare tutti i cookie installati nella cartella dei cookie del tuo browser. Ciascun browser presenta procedure diverse per la gestione delle impostazioni. Fai clic su uno dei collegamenti sottostanti per ottenere istruzioni specifiche.
+
+Microsoft Windows Explorer
+
+Google Chrome
+
+Mozilla Firefox
+
+Apple Safari
+
+ 
+
+Se non utilizzi nessuno dei browser sopra elencati, seleziona "cookie" nella relativa sezione della guida per scoprire dove si trova la tua cartella dei cookie.
+
+Ricorda che il blocco totale di tutti i cookie ha un impatto negativo sull'usabilità di molti siti, incluso il nostro.  Per questo motivo ti consigliamo di autorizzare l'utilizzo di cookie quando usi il nostro sito web oppure di disabilitarli in modo selettivo.
+
+ 
+
+Il nostro uso dei cookie
+
+I cookie presenti sul nostro sito web possono essere impostati da noi, da parti terze che hanno stipulato un contratto con noi o da parti terze indipendenti, come gli inserzionisti. 
+
+Il nostro sito fa uso sia di cookie "di sessione" che di cookie "permanenti".  I cookie "di sessione" registrano le informazioni per ogni singola pagina visitata, filtrando e completando le ricerche prima della fine della sessione, al termine del quale i cookie vengono rimossi. I cookie "permanenti" permettono ai nostri siti web di riconoscerti quando torni a farci visita e rimangono salvati sul tuo computer fino a quando non vengono cancellati o raggiungono una data di scadenza specifica. I cookie permanenti installati sul tuo computer a seguito dell'utilizzo dei nostri siti web non resteranno mai registrati per più di 2 anni dalla data della tua ultima visita.
+
+La tabella sottostante illustra le varie tipologie di cookie che usiamo (o che le terze parti usano), le motivazioni per cui li usiamo e comprende, inoltre, delle informazioni che puoi usare per controllare i cookie o saperne di più sui cookie usati sul nostro sito.
+
+Tipo di cookie
+
+Perchè lo usiamo e informazioni aggiuntive
+
+Essenziale
+
+I cookie essenziali, come si deduce dal nome, sono fondamentali per il corretto funzionamento del sito web. Permettono di ricordare le tue preferenze di navigazione.
+
+Statistico
+
+Usiamo i cookie anche per monitorare e capire meglio come vengono usati i nostri siti web e i nostri servizi e come gli utenti arrivano sulle nostre pagine, cosa che in cambio ci permette di ottimizzare l'esperienza dell'utente  e costruire un sito web che rispetti i bisogni dei nostri utenti. Usiamo Google Analytics per salvare cookie sul tuo dispositivo e generare report e statistiche anonime.
+
+Google salva queste informazioni in accordo con la sua informativa sulla privacy.
+
+Profilazione
+
+Sono alcuni cookie di Google Analytics utilizzati per raccogliere dati in forma anonima relativi all'utente in modo da poter mostrare, su altri siti, pubblicità mirate sulla base degli interessi mostrati.
+
+Altri Cookie di Terze Parti
+
+Visitando un sito web si possono ricevere cookie sia dal sito visitato (“proprietari”), sia da siti gestiti da altre organizzazioni (“terze parti”). Un esempio notevole è rappresentato dalla presenza dei “social plugin” per Facebook, Twitter, Google+, Google Maps, LinkedIn o aggregatori dei suddetti come AddThis. Si tratta di parti della pagina visitata generate direttamente dai suddetti siti ed integrati nella pagina del sito ospitante. L'utilizzo più comune dei social plugin è finalizzato alla condivisione dei contenuti sui social network, la visualizzazione del numero dei fan o l'inclusione di mappe di Google con l'ubicazione della sede aziendale.
+
+La presenza di questi plugin comporta la trasmissione di cookie da e verso siti gestiti da terze parti. La gestione delle informazioni raccolte da “terze parti” è disciplinata dalle relative informative cui si prega di fare riferimento.
+
+Facebook informativa: https://www.facebook.com/help/cookies/
+Google informativa: http://www.google.it/intl/it/policies/technologies/cookies/
+AddThis informativa: http://www.addthis.com/privacy/opt-out
+ 
+
+ 
+
+Informazioni aggiuntive
+
+Per qualunque quesito riguardo questa policy o per ricevere maggiori informazioni sui cookie usati sul nostro sito web puoi contattarci tramite i recapiti mail, telefonici o le form di contatto messe a disposizione dal sito. Sarà nostra premura inoltrare ogni richiesta al Responsabile.

@@ -1,0 +1,95 @@
+
+var tag = document.createElement('script');
+
+tag.src = "http://www.youtube.com/iframe_api";
+var firstScriptTag = document.getElementsByTagName('script')[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+var player;
+
+      function onYouTubeIframeAPIReady() {
+
+
+
+        player = new YT.Player('YT', {
+          width: finestra("x"),
+          height: finestra("y"),
+          videoId: '2PUbWZX8qqg',
+          playerVars: { 
+
+            'listType':'playlist',
+            'autoplay': 1, 
+            'controls': 0,
+            'showinfo': 0,
+            "autohide" : 1,
+            'rel': 0,
+            'modestbranding': 0
+         }, 
+
+          events: {
+            'onReady': onPlayerReady,
+            'suggestedQuality': 'large',
+            //'onPlaybackQualityChange': onPlayerPlaybackQualityChange,
+            'onStateChange': onPlayerStateChange,
+          }
+        });
+      }
+
+  function onPlayerReady(event) {
+    event.target.playVideo();
+
+  }
+
+  //    The API calls this function when the player's state changes.
+  //    The function indicates that when playing a video (state=1),
+  //    the player should play for six seconds and then stop.
+  var done = false;
+  function onPlayerStateChange(event) {
+    if (event.data == YT.PlayerState.PLAYING) {
+
+    }
+  }
+  function stopVideo() {
+    player.stopVideo();
+  }
+
+    function finestra(x){
+        if (x == "x") {
+            return window.innerWidth;
+        }
+
+        if (x == "y" ) {
+            return  window.innerHeight;
+        }
+    }
+    window.onresize=function(){
+        iframePlayer = document.getElementById("YT");
+        iframePlayer.width = finestra("x");
+        iframePlayer.height = finestra("y");
+    };
+    function onPlayerReady(event) {
+        event.target.setPlaybackQuality('medium');
+    }
+    function onPlayerStateChange(event) {
+        if (event.data == YT.PlayerState.BUFFERING) {
+            event.target.setPlaybackQuality('medium');
+
+        }
+        if (event.data == YT.PlayerState.ENDED){
+            $('#animatedHeader').hide();
+        }
+
+    }
+    $(window).scroll(function(){
+        if ($('#YT').length === 1) {
+            var videoAltezza = $(window).height();
+            var height = $(window).scrollTop();
+                if(height  > videoAltezza ) {
+                    $('#YT')[0].contentWindow.postMessage(
+                        '{"event":"command","func":"' + 'pauseVideo' + '","args":""}', '*');  
+                }
+                else {
+                    $('#YT')[0].contentWindow.postMessage(
+                        '{"event":"command","func":"' + 'playVideo' + '","args":""}', '*');    
+                }
+            }
+        });

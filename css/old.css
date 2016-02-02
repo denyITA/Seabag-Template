@@ -1,0 +1,18 @@
+.old_borderradius  .giveawayTrigger,
+.old_borderradius  .cerchioX,
+.old_borderradius  #back-top,
+.old_borderradius  .openPremi span,
+.old_borderradius .cerchiogrande,
+.old_borderradius .cerchiopiccolo,
+.old_borderradius .social a,
+.old_borderradius .imgWrapper,
+.old_borderradius .imgWrapper img
+ {
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+}
+
+.old_borderimage #sponsor img {
+	-webkit-border-radius: 200px;
+	-moz-border-radius: 200px;
+}
