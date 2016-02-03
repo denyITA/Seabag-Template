@@ -20,7 +20,7 @@
 			</div>
 
 			<div class="video1">
-				<iframe class="lazyload" src="<?php bloginfo('wpurl'); ?>/wp-content/themes/seabagtemplate/img/blank.png" data-src="https://www.youtube.com/embed/kUwBjT7Bu8s?modestbranding=1&rel=0&amp;controls=0&amp;showinfo=0"  allowfullscreen></iframe>
+				<!-- <iframe class="lazyload" src="<?php bloginfo('wpurl'); ?>/wp-content/themes/seabagtemplate/img/blank.png" data-src="https://www.youtube.com/embed/kUwBjT7Bu8s?modestbranding=1&rel=0&amp;controls=0&amp;showinfo=0"  allowfullscreen></iframe> -->
 			</div>
 			<div class="photo2">
 				<a href="<?php bloginfo('wpurl'); ?>/wp-content/uploads/2015/10/bimba-seabag.jpg">

@@ -197,11 +197,33 @@ fbq('track', "PageView");
 fbq('track', 'ViewContent');
 </script>
 <script>
-$('.carousel').carousel({
+$('#sliderTestata').carousel({
     interval: 2000,
     pause: "hover",
     keyboard: true
 });
+</script>
+<script>
+var fullscreenOptions = {
+    // Defines if the gallery should open in fullscreen mode:
+    fullScreen: false
+};
+blueimp.Gallery([
+    {
+        title: 'Seabag Video',
+        href: 'https://www.youtube.com/embed/kUwBjT7Bu8s?modestbranding=1&rel=0&amp;controls=0&amp;showinfo=0',
+        type: 'text/html',
+        youtube: 'kUwBjT7Bu8s',
+        poster: 'https://img.youtube.com/vi/kUwBjT7Bu8s/maxresdefault.jpg'
+    },
+    {
+        title: 'Banana',
+        href: 'https://www.youtube.com/embed/ly8yuRGfs5U?modestbranding=1&rel=0&amp;controls=0&amp;showinfo=0',
+        type: 'text/html',
+        youtube: 'ly8yuRGfs5U',
+        poster : 'https://img.youtube.com/vi/ly8yuRGfs5U/maxresdefault.jpg'
+    }
+]);
 </script>
 <noscript><img height="1" width="1" style="display:none"
 src="https://www.facebook.com/tr?id=456290021187239&ev=PageView&noscript=1"

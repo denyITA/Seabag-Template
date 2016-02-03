@@ -1442,8 +1442,8 @@ footer {
   text-align: center;
   li {
     display: inline-block;
-    padding-left: 6.5px;
-    padding-right: 6.5px;
+    padding-left: 4.5px;
+    padding-right: 2px;
     font-size: 1.2em;
     text-rendering: optimizeLegibility;
     &:nth-child(1) {
@@ -1575,9 +1575,14 @@ footer .btn-primary {
   background: #c7c7c7;
   color: #333;
   margin-bottom: 5px;
+  overflow: hidden;
   &:hover {
     color: #286090;
   }
+    &[href*=twitter]:hover {
+        background-color: #1DA1F2;
+        color: #FFF;
+    }
   &[href*=facebook]:hover {
     background-color: #3b5998;
     color: #FFF;
