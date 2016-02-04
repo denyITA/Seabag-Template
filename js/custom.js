@@ -224,5 +224,31 @@ $(window).resize(function() {
     videoCentrato()
 });
 
+$(function(){
+    "use strict";
+    var slidePlayer='<div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls"><div class="slides"><\/div><h3 class="title"> <\/h3><a class="prev">‹<\/a><a class="next">›<\/a><a class="close">×<\/a><a class="play-pause"><\/a><ol class="indicator"><\/ol><\/div>';
+    $("body").append(slidePlayer);
+});
 
+$('#sliderTestata').carousel({
+    interval: 2000,
+    pause: "hover",
+    keyboard: true
+});
 
+$(function() {
+    var cssToInit = [
+        wpTheme + "/css/diconodinoi.min.css",
+        wpTheme + "/css/blueimp-gallery.min.css"
+    ];
+    var r = 0;
+    for (i=0; i < cssToInit.length; i++) {
+
+        r = document.createElement("link");
+        r.rel = "stylesheet";
+        r.type = "text/css";
+        r.href = cssToInit[i];
+        $("head").append(r);
+
+    }
+});

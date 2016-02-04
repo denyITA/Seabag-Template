@@ -90,7 +90,7 @@
           <div class="openTab">
 
             <div class="container" style="padding-top: 20px; padding-bottom: 20px">
-              <?php pure_post(232) ?>
+              <?php get_template_part("scaffale-1") ?>
               <div class="clearfix"></div>
             </div>
           </div>
@@ -135,6 +135,7 @@
 <!-- LIBRERIA -->
 
   <div id="media" class="album">
+      <?php get_template_part("album") ?>
   </div>
   <section>
     <div id="sponsor"><?php get_template_part('sponsor') ?></div>

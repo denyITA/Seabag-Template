@@ -57,6 +57,8 @@
     <?php
         get_template_part("analytics");
     ?>
+    <script>
+    var wpurl = "<?php bloginfo('wpurl'); ?>"; var wpTheme = "<?php echo get_stylesheet_directory_uri(); ?>"</script>
 </head>
 <body id="testata" class="<?php  get_body_class() ?>">
 

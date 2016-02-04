@@ -2339,6 +2339,16 @@ a[rel=alternate] {
   }
 }
 
+#PlayVideos {
+    background: url(/wp-content/themes/seabagtemplate/img/video-play.png), url(https://img.youtube.com/vi/kUwBjT7Bu8s/maxresdefault.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: auto, cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
 @media screen and (min-width: 1680px) {
   #seabagInfo a {
     height: 600px;

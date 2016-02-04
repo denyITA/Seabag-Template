@@ -7,4 +7,13 @@ document.write('<script src="/wp-content/themes/seabagtemplate/js/lazysizes.min.
 //document.write("<script src='/wp-content/themes/seabagtemplate/js/yt.js'><\/script>");
 document.write('<script type="text/javascript" src="/wp-content/themes/seabagtemplate/js/blueimp-gallery.min.js"><\/script>');
 document.write('<script type="text/javascript" src="/wp-content/themes/seabagtemplate/js/blueimpFire.js"><\/script>');
-document.write('<div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls"><div class="slides"><\/div><h3 class="title"> <\/h3><a class="prev">‹<\/a><a class="next">›<\/a><a class="close">×<\/a><a class="play-pause"><\/a><ol class="indicator"><\/ol><\/div>');
+document.write("<script src='/wp-content/themes/seabagtemplate/js/blueimp-gallery-youtube.js'></script>)
+
+
+               https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js
+               /wp-content/themes/seabagtemplate/js/custom.min.js
+               /wp-content/themes/seabagtemplate/js/lazysizes.min.js
+               /wp-content/themes/seabagtemplate/js/blueimp-gallery.min.js
+
+
+               /wp-content/themes/seabagtemplate/js/blueimpFire.js

@@ -50,8 +50,24 @@
         <div id="back-top" style="display: block;"><a href="#testata"><i class="fa fa-angle-up"></i></a></div>
     <?php wp_footer() ?>
 <!-- [[[ Pagina generata in <?php timer_stop(1); ?> secondi. Wow! ]]] -->
-    <script id="dispatcher" type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/js/dispatcher.min.js"></script>
-    <script type="application/ld+json">
+<script>
+    function init() {
+        	$LAB
+    .script("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js")
+
+
+	.script( [
+                wpTheme + "/js/custom.min.js",
+                wpTheme + "/js/lazysizes.min.js"
+            ]
+           ).wait()
+    .script( wpTheme + "/js/blueimp-gallery.min.js" ).wait()
+    .script( wpTheme + "/js/blueimpFire.js")
+    }
+
+</script>
+<script type="text/javascript" async src="<?php echo get_stylesheet_directory_uri(); ?>/js/LAB.min.js" onload="init()"></script>
+<script type="application/ld+json">
     [
         {
             "@context" : "http://schema.org",
@@ -146,12 +162,6 @@
     </script>
     <script type="text/javascript">
         $(document).ready(function () {
-            <?php if (is_front_page()) : ?>
-            $.get("<?php echo get_stylesheet_directory_uri(); ?>/album.php", function(data, status) {
-                $("#media").append(data);
-                console.log('%c'+"Media status:"+status, 'background: #222; color: #bada55; font-size: 20px;');
-            });
-            <?php endif; ?>
             $(".shop").one("click", function() {
                 $.get("<?php echo get_stylesheet_directory_uri(); ?>/inc/lingue.php/?choose=true", function(data, status) {
                     $("#selezionaShop").append(data);
@@ -166,21 +176,7 @@
         });
 
     </script>
-<!--
-    <script type="text/javascript">
-        $("#triggerino").click(function(click) {
-            if ($("#YT").length > 0) {
-                player.playVideo();
-                $('#animatedHeader').fadeIn("slow");
-            }
-            if ($("#YT").length === 0) {
-            var videoAppenditi = '<div id="animatedHeader" class="filmato" style="z-index: 1"><b></b><div class="loading"></div><div id="YT"></div></div>';
-            $('#testata').prepend(videoAppenditi);
-            //$('#triggerino').hide('slow');
-            $("body").append("<script src='/wp-content/themes/seabagtemplate/js/yt.js'><\/script>");
-        }
-        })
-    </script> -->
+
     <?php
         get_template_part("analytics");
     ?>
@@ -196,34 +192,53 @@ fbq('init', '456290021187239');
 fbq('track', "PageView");
 fbq('track', 'ViewContent');
 </script>
+
 <script>
-$('#sliderTestata').carousel({
-    interval: 2000,
-    pause: "hover",
-    keyboard: true
+$(".photos").click(function () {
+    blueimp.Gallery([
+        wpurl + '/wp-content/uploads/2015/10/seabag-bianca.jpg',
+        wpurl + '/wp-content/uploads/2015/08/schiuma.jpg',
+        wpurl + '/wp-content/uploads/2015/07/1007.jpg',
+        wpurl + '/wp-content/uploads/2015/08/seabagTWO1.jpg',
+        wpurl + '/wp-content/uploads/2015/08/sundial-3.jpg',
+        wpurl + '/wp-content/uploads/2015/08/modella.jpg',
+        wpurl + '/wp-content/uploads/2015/08/lookatpareo.jpg',
+        wpurl + '/wp-content/uploads/2015/10/seabag-splash.jpg',
+        wpurl + '/wp-content/uploads/2015/10/bimba-seabag.jpg',
+        wpurl + '/wp-content/uploads/2015/10/girl-seabag.jpg',
+        wpurl + '/wp-content/uploads/2015/10/backpack-seabag.jpg',
+        wpurl + '/wp-content/uploads/2015/10/kate-seabag.jpg',
+        wpurl + '/wp-content/uploads/2015/10/sundial-seabag.jpg'
+    ]);
 });
-</script>
-<script>
-var fullscreenOptions = {
-    // Defines if the gallery should open in fullscreen mode:
-    fullScreen: false
-};
-blueimp.Gallery([
-    {
-        title: 'Seabag Video',
-        href: 'https://www.youtube.com/embed/kUwBjT7Bu8s?modestbranding=1&rel=0&amp;controls=0&amp;showinfo=0',
-        type: 'text/html',
-        youtube: 'kUwBjT7Bu8s',
-        poster: 'https://img.youtube.com/vi/kUwBjT7Bu8s/maxresdefault.jpg'
-    },
-    {
-        title: 'Banana',
-        href: 'https://www.youtube.com/embed/ly8yuRGfs5U?modestbranding=1&rel=0&amp;controls=0&amp;showinfo=0',
-        type: 'text/html',
-        youtube: 'ly8yuRGfs5U',
-        poster : 'https://img.youtube.com/vi/ly8yuRGfs5U/maxresdefault.jpg'
-    }
-]);
+
+$(".close").click(function() {
+    setTimeout(function() {
+      $("body").css("overflow","auto");
+    }, 1500);
+});
+
+$("#PlayVideos").click(function () {
+    var fullscreenOptions = {
+        // Defines if the gallery should open in fullscreen mode:
+        fullScreen: false
+    };
+
+    blueimp.Gallery([
+        {
+            href: 'https://www.youtube.com/watch?v=kUwBjT7Bu8s',
+            type: 'text/html',
+            youtube: 'kUwBjT7Bu8s',
+            poster: 'https://img.youtube.com/vi/kUwBjT7Bu8s/maxresdefault.jpg'
+        },
+        {
+            href: 'https://www.youtube.com/watch?v=aTMjkFx1pbk',
+            type: 'text/html',
+            youtube: 'aTMjkFx1pbk',
+            poster : '/wp-content/themes/seabagtemplate/img/seabag-intro.jpg'
+        }
+    ]);
+});
 </script>
 <noscript><img height="1" width="1" style="display:none"
 src="https://www.facebook.com/tr?id=456290021187239&ev=PageView&noscript=1"
