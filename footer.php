@@ -13,7 +13,7 @@
             </div>
             <div class="servizi row">
                 <div class="col-md-12 col-lg-3">
-                    <img style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/img/seabag-minilogo.png'); background-position: center center; background-size: cover" src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.svg" width="60" height="60">
+                    <img id="miniLogo" src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.svg" width="60" height="60">
                 </div>
                 <div class=" menuservizi col-md-12 col-lg-6">
                     <nav><?php wp_nav_menu(array('theme_location' => 'eshop')) ?></nav>

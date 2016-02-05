@@ -104,28 +104,6 @@
 	</div>
 	<!-- END NAVBAR TOP -->
 
-<?php
-if ( wp_is_mobile() ) : ?>
-
-	<div class="quadro-testata"></div>
-
-<?php endif;
-if ( !wp_is_mobile() ) : ?>
-<style>
-
-    #sliderTestata .carousel-indicators li {
-        background-color: #2A4B9B;
-        border: 1px solid #2A4B9B;
-    }
-
-    #sliderTestata .carousel-indicators .active {
-        width: 16px;
-        height: 16px;
-        background-color: #E30613;
-        border-color: #E30613;
-    }
-    </style>
-
 <div id="sliderTestata" class="quadro-testata carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
@@ -136,14 +114,14 @@ if ( !wp_is_mobile() ) : ?>
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner" style="height: 100%" role="listbox">
-    <div style="height: 100%" class="item active">
-        <div class="item quadro-testata active"></div>
+    <div class="item active">
+        <div class="item seabag-slide seabag-slide-1 active"></div>
       </div>
-    <div style="height: 100%" class="item">
-      <div style="position: absolute; top: 0px; left: 0px; background: url('<?php echo get_stylesheet_directory_uri(); ?>/img/_MG_0151mdfct.jpg'); background-position: center top; background-size: cover; width: 100%; height: 100%;"></div>
+    <div class="item">
+      <div class="seabag-slide seabag-slide-2"></div>
     </div>
-    <div style="height: 100%" class="item">
-        <div style="position: absolute; top: 0px; left: 0px; background: url('<?php echo get_stylesheet_directory_uri(); ?>/img/FOTO LORENZO PH GATTO HD (31mod).jpg'); background-position: center center; background-size: cover; width: 100%; height: 100%;" src=""></div>
+    <div class="item">
+        <div class="seabag-slide seabag-slide-3"></div>
     </div>
   </div>
 
@@ -163,7 +141,6 @@ if ( !wp_is_mobile() ) : ?>
 	</div>
 	-->
 
-<?php endif; ?>
 
 
 	<div  class="daBox">
