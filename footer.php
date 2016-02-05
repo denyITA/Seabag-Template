@@ -13,12 +13,7 @@
             </div>
             <div class="servizi row">
                 <div class="col-md-12 col-lg-3">
-                    <div class="tplogo">
-                        <div class="tpbg">
-  		                    <div class="cerchiopiccolo"></div>
-  		                    <div class="cerchiogrande"></div>
-                        </div>
-                    </div>
+                    <img style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/img/seabag-minilogo.png'); background-position: center center; background-size: cover" src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.svg" width="60" height="60">
                 </div>
                 <div class=" menuservizi col-md-12 col-lg-6">
                     <nav><?php wp_nav_menu(array('theme_location' => 'eshop')) ?></nav>
@@ -44,7 +39,6 @@
         <?php if (is_front_page()) : ?> </div> <!-- Closing da box --> <?php endif; ?>
         <?php
         if (is_user_logged_in()) : ?>
-        <div class="seriusadminbar"><a href="wp-admin"><i class="fa fa-wordpress"></i></a></div>
 
         <?php endif; ?>
         <div id="back-top" style="display: block;"><a href="#testata"><i class="fa fa-angle-up"></i></a></div>
@@ -53,7 +47,7 @@
 <script>
     function init() {
         	$LAB
-    .script("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js")
+    .script("https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js")
 
 
 	.script( [

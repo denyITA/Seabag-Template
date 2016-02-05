@@ -120,7 +120,7 @@
     </div>
     <div class="openedPrizes">
       <div id="trofei">
-        <div class="openTab">
+        <div id="tabPrizes" class="openTab">
             <div class="container" style="padding-top: 20px; padding-bottom: 20px">
                 <div class="col-lg-12">
                     <?php contenuto_pagina(240) ?>

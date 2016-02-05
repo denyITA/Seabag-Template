@@ -2107,9 +2107,22 @@ a[rel=alternate] {
 }
 
 #trofei {
-  display: none;
+    transition: 1s;
+    display: block;
+    height: 0px;
+    overflow: hidden;
+}
+.openTab {
+    img {
+        cursor: pointer;
+    }
 }
 
+.rotateItem {
+    -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+}
 #copertine {
   position: relative;
   display: none;
@@ -2125,6 +2138,9 @@ a[rel=alternate] {
   }
   .openTab {
     box-shadow: 0 10px 10px -10px inset;
+      img {
+          cursor: pointer;
+      }
   }
   .oddTab {
     box-shadow: none;

@@ -130,19 +130,18 @@ var twitter = $("footer a[href*=twitter]"),
     $(pinterest).html('<i class="fa fa-pinterest-p fa-lg"></i>');
 });
 
-if ($('.showAwards').length > 0 ) {
 //COPERTINE
-    $(document).ready(function() {
-    //LIBRERIA
-      $('.showAwards').click( function(){
-          $("#copertine").slideDown();
-      });
-    //PREMI
-      $('.openPrize').click( function(){
-          $("#trofei").slideDown();
-      });
-    });
-}
+
+//LIBRERIA
+  $('.showAwards').click( function(){
+      $("#copertine").slideDown();
+  });
+//PREMI
+  $('.openPrize').click( function(){
+      var pHoT = $("#tabPrizes").height();
+      $("#trofei").height(pHoT);
+  });
+
 
 
 $('#formUs').click(function(){
@@ -231,7 +230,7 @@ $(function(){
 });
 
 $('#sliderTestata').carousel({
-    interval: 2000,
+    interval: 4000,
     pause: "hover",
     keyboard: true
 });
@@ -251,4 +250,15 @@ $(function() {
         $("head").append(r);
 
     }
+});
+
+function macFix() {
+    var h = $(".riga1").height();
+    $("#PlayVideos").height(h);
+}
+
+macFix();
+
+$(window).resize(function() {
+    macFix();
 });

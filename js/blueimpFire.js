@@ -68,3 +68,31 @@ $("#blueimp-il-gommone").click(function () {
         wpurl + "/wp-content/uploads/2015/09/il-gommone-content.jpg"
      ]);
 });
+
+//////////////////////////////////////// Premi
+
+$("#the-start-something").click(function () {
+     blueimp.Gallery([
+        wpurl + "/wp-content/uploads/2015/09/d7ba25_b606913a1b39421c92e0c87b232f081a-1.jpg",
+        wpurl + "/wp-content/uploads/2015/09/IMG_4763.jpg",
+        wpurl + "/wp-content/uploads/2015/09/IMG_4764.jpg"
+     ]);
+});
+
+$("#innovation-makers").click(function () {
+     blueimp.Gallery([
+        wpurl + "/wp-content/uploads/2015/09/d7ba25_b606913a1b39421c92e0c87b232f081a-1.jpg"
+     ]);
+});
+
+$("#cerisdi").click(function () {
+     blueimp.Gallery([
+        wpurl + "/wp-content/uploads/2015/09/cerisdi.jpg"
+     ]);
+});
+
+$("#siestas-award").click(function () {
+     blueimp.Gallery([
+        wpurl + "/wp-content/uploads/2015/09/innovation-maker.jpg"
+     ]);
+});
