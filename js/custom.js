@@ -202,25 +202,14 @@ $("#giveaway").click(function() {
 });
 
 $(function() {
-    var url = document.location.hostname;
+    var url = wpurl;
 
     if(url == "www.seabag.it" || url == "seabag.it" ){
         $("#menu-item-382 a").attr("href","http://"+url);
     }
     if(document.location.hostname == "www.seabag.us" || document.location.hostname == "seabag.us" ){
-        $("#menu-item-382 a").attr("href","http://"+url);
+        $("#menu-item-382 a").attr("href","http://" + url);
     }
-});
-
-function videoCentrato() {
-    if ($("#YT").length === 1) {
-        //$('#animatedHeader').css({'left': parseInt(window.innerWidth/2) })
-        //$('#YT').css({'right': parseInt(window.innerWidth/2) })
-    }
-}
-
-$(window).resize(function() {
-    videoCentrato()
 });
 
 $(function(){
@@ -261,4 +250,25 @@ macFix();
 
 $(window).resize(function() {
     macFix();
+});
+
+
+$(".close").click(function() {
+    setTimeout(function() {
+      $("body").css("overflow","auto");
+    }, 1500);
+});
+
+$(document).ready(function () {
+    $(".shop").one("click", function() {
+        $.get(wpTheme + "/inc/lingue.php/?choose=true", function(data, status) {
+            $("#selezionaShop").append(data);
+            console.log('%c'+status, 'background: #222; color: #bada55; font-size: 20px;');
+        });
+    });
+    $('a[href="#pp"]').click(function(){
+        $.get(wpTheme + "/pp.txt", function(data, status) {
+            alert(data);
+        });
+    });
 });

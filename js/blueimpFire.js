@@ -96,3 +96,45 @@ $("#siestas-award").click(function () {
         wpurl + "/wp-content/uploads/2015/09/innovation-maker.jpg"
      ]);
 });
+
+/////////////////////////////// VIDEO
+
+$("#PlayVideos").click(function () {
+    var fullscreenOptions = {
+        // Defines if the gallery should open in fullscreen mode:
+        fullScreen: false
+    };
+
+    blueimp.Gallery([
+        {
+            href: 'https://www.youtube.com/watch?v=kUwBjT7Bu8s',
+            type: 'text/html',
+            youtube: 'kUwBjT7Bu8s',
+            poster: 'https://img.youtube.com/vi/kUwBjT7Bu8s/maxresdefault.jpg'
+        },
+        {
+            href: 'https://www.youtube.com/watch?v=aTMjkFx1pbk',
+            type: 'text/html',
+            youtube: 'aTMjkFx1pbk',
+            poster : '/wp-content/themes/seabagtemplate/img/seabag-intro.jpg'
+        }
+    ]);
+});
+
+$(".photos").click(function () {
+    blueimp.Gallery([
+        wpurl + '/wp-content/uploads/2015/10/seabag-bianca.jpg',
+        wpurl + '/wp-content/uploads/2015/08/schiuma.jpg',
+        wpurl + '/wp-content/uploads/2015/07/1007.jpg',
+        wpurl + '/wp-content/uploads/2015/08/seabagTWO1.jpg',
+        wpurl + '/wp-content/uploads/2015/08/sundial-3.jpg',
+        wpurl + '/wp-content/uploads/2015/08/modella.jpg',
+        wpurl + '/wp-content/uploads/2015/08/lookatpareo.jpg',
+        wpurl + '/wp-content/uploads/2015/10/seabag-splash.jpg',
+        wpurl + '/wp-content/uploads/2015/10/bimba-seabag.jpg',
+        wpurl + '/wp-content/uploads/2015/10/girl-seabag.jpg',
+        wpurl + '/wp-content/uploads/2015/10/backpack-seabag.jpg',
+        wpurl + '/wp-content/uploads/2015/10/kate-seabag.jpg',
+        wpurl + '/wp-content/uploads/2015/10/sundial-seabag.jpg'
+    ]);
+});

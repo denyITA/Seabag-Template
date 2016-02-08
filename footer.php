@@ -154,22 +154,6 @@
         }
     ]
     </script>
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $(".shop").one("click", function() {
-                $.get("<?php echo get_stylesheet_directory_uri(); ?>/inc/lingue.php/?choose=true", function(data, status) {
-                    $("#selezionaShop").append(data);
-                    console.log('%c'+status, 'background: #222; color: #bada55; font-size: 20px;');
-                });
-            });
-            $('a[href="#pp"]').click(function(){
-                $.get("<?php echo get_stylesheet_directory_uri(); ?>/pp.txt", function(data, status) {
-                    alert(data);
-                });
-            });
-        });
-
-    </script>
 
     <?php
         get_template_part("analytics");
@@ -187,53 +171,6 @@ fbq('track', "PageView");
 fbq('track', 'ViewContent');
 </script>
 
-<script>
-$(".photos").click(function () {
-    blueimp.Gallery([
-        wpurl + '/wp-content/uploads/2015/10/seabag-bianca.jpg',
-        wpurl + '/wp-content/uploads/2015/08/schiuma.jpg',
-        wpurl + '/wp-content/uploads/2015/07/1007.jpg',
-        wpurl + '/wp-content/uploads/2015/08/seabagTWO1.jpg',
-        wpurl + '/wp-content/uploads/2015/08/sundial-3.jpg',
-        wpurl + '/wp-content/uploads/2015/08/modella.jpg',
-        wpurl + '/wp-content/uploads/2015/08/lookatpareo.jpg',
-        wpurl + '/wp-content/uploads/2015/10/seabag-splash.jpg',
-        wpurl + '/wp-content/uploads/2015/10/bimba-seabag.jpg',
-        wpurl + '/wp-content/uploads/2015/10/girl-seabag.jpg',
-        wpurl + '/wp-content/uploads/2015/10/backpack-seabag.jpg',
-        wpurl + '/wp-content/uploads/2015/10/kate-seabag.jpg',
-        wpurl + '/wp-content/uploads/2015/10/sundial-seabag.jpg'
-    ]);
-});
-
-$(".close").click(function() {
-    setTimeout(function() {
-      $("body").css("overflow","auto");
-    }, 1500);
-});
-
-$("#PlayVideos").click(function () {
-    var fullscreenOptions = {
-        // Defines if the gallery should open in fullscreen mode:
-        fullScreen: false
-    };
-
-    blueimp.Gallery([
-        {
-            href: 'https://www.youtube.com/watch?v=kUwBjT7Bu8s',
-            type: 'text/html',
-            youtube: 'kUwBjT7Bu8s',
-            poster: 'https://img.youtube.com/vi/kUwBjT7Bu8s/maxresdefault.jpg'
-        },
-        {
-            href: 'https://www.youtube.com/watch?v=aTMjkFx1pbk',
-            type: 'text/html',
-            youtube: 'aTMjkFx1pbk',
-            poster : '/wp-content/themes/seabagtemplate/img/seabag-intro.jpg'
-        }
-    ]);
-});
-</script>
 <noscript><img height="1" width="1" style="display:none"
 src="https://www.facebook.com/tr?id=456290021187239&ev=PageView&noscript=1"
 /></noscript>
