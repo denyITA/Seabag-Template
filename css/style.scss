@@ -893,6 +893,7 @@ figure .lente {
   }
   img {
     width: 100%;
+    height: auto;
     min-height: 100%;
   }
 }
@@ -1665,11 +1666,13 @@ footer .btn-primary {
       border-radius: 50%;
       overflow: hidden;
       width: 300px;
+      height: auto;
       border: solid 2px #FFF;
     }
   }
   #spaceland {
     width: 250px;
+    height: auto;
   }
   img {
     max-width: 100%;
