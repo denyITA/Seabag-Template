@@ -49,7 +49,7 @@ Template Name: Company page
 </div>
 
 <div class="schiarisci hidden-xs"></div>
-<img  class="headerCompany" src="<?php get_bloginfo("wpurl") ?>/wp-content/uploads/2015/09/company-cover.jpg">
+<img width="1767" height="1080" class="headerCompany" alt="fabbrica-seabag" src="<?php echo get_stylesheet_directory_uri(); ?>/img/fabbrichetta.jpg">
 <section>
 	<div id="brandname">
 	<div class="container">
@@ -71,7 +71,7 @@ Template Name: Company page
 		<div class="col-lg-6 col-md-6 grey">
 			<?php contenuto_pagina(254) ?>
 		</div>
-        <div class="col-lg-6 col-md-6 fronte"><img class="lazyload" data-sizes="auto" data-src="<?php get_bloginfo("wpurl") ?>/wp-content/uploads/2015/08/d7ba25_cb8dbef06d81446a941d5852c8b57b9d.png" alt="brand"></div>
+        <div class="col-lg-6 col-md-6 fronte"><img width="1118" height="1118" style="height: auto" class="lazyload" data-sizes="auto" data-src="<?php get_bloginfo("wpurl") ?>/wp-content/uploads/2015/08/d7ba25_cb8dbef06d81446a941d5852c8b57b9d.png" alt="brand"></div>
 
 		<div class="clearfix"></div>
             </div>
@@ -97,34 +97,34 @@ Template Name: Company page
 
                     <div id="processo-produttivo" class="img-process row">
                         <div class="col-xs-6 col-md-4">
-                            <a class="fancybox-thumb" rel="album-1" href="<?php get_bloginfo("wpurl") ?>/wp-content/uploads/2015/09/d7ba25_38ef8ace52174d18937b064c68503bf6-1.jpg">
-                              <img class="lazyload" data-src="<?php get_bloginfo("wpurl") ?>/wp-content/uploads/2015/09/d7ba25_38ef8ace52174d18937b064c68503bf6-1.jpg" alt="...">
-                            </a>
+                            <span class="album-fabbrica">
+                              <img width="600" height="600" class="lazyload" data-src="<?php echo get_stylesheet_directory_uri(); ?>/img/company-foto/rotoli/rotolo-anteprima.jpg" alt="Rotolo Seabag">
+                            </span>
                         </div>
                         <div class="col-xs-6 col-md-4">
-                            <a rel="album-1" class="fancybox-thumb" href="<?php get_bloginfo("wpurl") ?>/wp-content/uploads/2015/09/d7ba25_17d4e2f3c85c43a6aa3c5d102f25da72.jpg">
-                              <img class="lazyload" data-src="<?php get_bloginfo("wpurl") ?>/wp-content/uploads/2015/09/d7ba25_17d4e2f3c85c43a6aa3c5d102f25da72.jpg" alt="...">
-                            </a>
+                            <span class="album-fabbrica">
+                              <img height="600" width="600" class="lazyload" data-src="<?php echo get_stylesheet_directory_uri(); ?>/img/company-foto/pressa/pressa-anteprima.jpg" alt="Pressa Seabag">
+                            </span>
                         </div>
                         <div class="col-xs-6 col-md-4">
-                            <a rel="album-1" class="fancybox-thumb" href="<?php get_bloginfo("wpurl") ?>/wp-content/uploads/2015/09/d7ba25_9c8a4959d2cb4f7a9cd0fc271463d036.jpg">
-                              <img class="lazyload" data-src="<?php get_bloginfo("wpurl") ?>/wp-content/uploads/2015/09/d7ba25_9c8a4959d2cb4f7a9cd0fc271463d036.jpg" alt="...">
-                            </a>
+                            <span class="album-fabbrica">
+                              <img width="600" height="600" class="lazyload" data-src="<?php echo get_stylesheet_directory_uri(); ?>/img/company-foto/stampante/stampante-anteprima.jpg" alt="Stampante Seabag">
+                            </span>
                         </div>
                         <div class="col-xs-6 col-md-4">
-                            <a rel="album-1" class="fancybox-thumb" href="<?php get_bloginfo("wpurl") ?>/wp-content/uploads/2015/09/d7ba25_6afca3e70d324e999c516d75dc2eda82.jpg">
-                              <img class="lazyload" data-src="<?php get_bloginfo("wpurl") ?>/wp-content/uploads/2015/09/d7ba25_6afca3e70d324e999c516d75dc2eda82.jpg" alt="...">
-                            </a>
+                            <span class="album-fabbrica">
+                              <img width="600" height="600" class="lazyload" data-src="<?php echo get_stylesheet_directory_uri(); ?>/img/company-foto/strumenti pressa/pressa-anteprima.jpg" alt="Strumenti Pressa Seabag">
+                            </span>
                         </div>
                         <div class="col-xs-6 col-md-4">
-                            <a rel="album-1" class="fancybox-thumb" href="<?php get_bloginfo("wpurl") ?>/wp-content/uploads/2015/09/d7ba25_5d0fd608989041ae8ea18e2197562d55-1.jpg">
-                              <img class="lazyload" data-src="<?php get_bloginfo("wpurl") ?>/wp-content/uploads/2015/09/d7ba25_5d0fd608989041ae8ea18e2197562d55-1.jpg" alt="...">
-                            </a>
+                            <span class="album-fabbrica">
+                              <img width="600" height="600" class="lazyload" data-src="<?php echo get_stylesheet_directory_uri(); ?>/img/company-foto/seabag/seabag-anteprima.jpg" alt="Seabag stampate">
+                            </span>
                         </div>
                         <div class="col-xs-6 col-md-4">
-                            <a rel="album-1" class="fancybox-thumb" href="<?php get_bloginfo("wpurl") ?>/wp-content/uploads/2015/09/d7ba25_d36c9171be21411dbad903f1664c0a30.jpg">
-                              <img  class="lazyload" data-src="<?php get_bloginfo("wpurl") ?>/wp-content/uploads/2015/09/d7ba25_d36c9171be21411dbad903f1664c0a30.jpg" alt="...">
-                            </a>
+                            <span class="album-fabbrica">
+                              <img width="600" height="600" class="lazyload" data-src="<?php echo get_stylesheet_directory_uri(); ?>/img/company-foto/floating/floating-anteprima.jpg" alt="Seabag galleggiante">
+                            </span>
                         </div>
                 </div>
             </div>
@@ -149,7 +149,7 @@ Template Name: Company page
 			  <div class="col-sm-6 col-md-3">
 			    <div class="thumbnail">
                 <div class="imgWrapper">
-			      <img class="lazyload" data-src="<?php get_bloginfo("site") ?>/wp-content/uploads/2015/08/giuseppe.jpg" alt="...">
+			      <img height="800" height="800" class="lazyload" src="<?php echo get_stylesheet_directory_uri(); ?>/img/lazyload.png" data-src="<?php get_bloginfo("site") ?>/wp-content/uploads/2015/08/giuseppe.jpg" alt="Giuseppe Lucido">
 			     </div>
                     <div class="caption">
 			        <h3>Giuseppe</h3>
@@ -160,7 +160,7 @@ Template Name: Company page
 			  <div class="col-sm-6 col-md-3">
 			    <div class="thumbnail">
                     <div class="imgWrapper">
-			      <img class="lazyload" data-src="<?php get_bloginfo("site") ?>/wp-content/uploads/2015/08/rossana.jpg" alt="...">
+			      <img height="800" height="800" src="<?php echo get_stylesheet_directory_uri(); ?>/img/lazyload.png" class="lazyload" data-src="<?php get_bloginfo("site") ?>/wp-content/uploads/2015/08/rossana.jpg" alt="Rossana Lo Dato">
 			      </div>
                     <div class="caption">
 			        <h3>Rossana</h3>
@@ -171,7 +171,7 @@ Template Name: Company page
 			  <div class="col-sm-6 col-md-3">
 			    <div class="thumbnail">
                    <div class="imgWrapper">
-			      <img class="lazyload" data-src="<?php get_bloginfo("site") ?>/wp-content/uploads/2015/08/lorenzo.jpg" alt="...">
+			      <img height="800" height="800" class="lazyload" src="<?php echo get_stylesheet_directory_uri(); ?>/img/lazyload.png" data-src="<?php get_bloginfo("site") ?>/wp-content/uploads/2015/08/lorenzo.jpg" alt="Lorenzo Lo Dato">
 			      </div>
                     <div class="caption">
 			        <h3>Lorenzo</h3>
@@ -182,7 +182,7 @@ Template Name: Company page
 			  <div class="col-sm-6 col-md-3">
 			    <div class="thumbnail">
                    <div class="imgWrapper">
-			         <img class="lazyload" data-src="<?php get_bloginfo("site") ?>/wp-content/uploads/2015/08/pub_rel.jpg" alt="...">
+			         <img height="800" height="800" class="lazyload" src="<?php echo get_stylesheet_directory_uri(); ?>/img/lazyload.png" data-src="<?php get_bloginfo("site") ?>/wp-content/uploads/2015/08/pub_rel.jpg" alt="Marilù">
 			      </div>
                     <div class="caption">
 			        <h3>Marilù</h3>
@@ -193,7 +193,7 @@ Template Name: Company page
 			  <div class=" col-sm-6 col-md-3">
 			    <div class="thumbnail">
                     <div class="imgWrapper">
-                        <img class="lazyload" data-src="<?php get_bloginfo("site") ?>/wp-content/uploads/2015/08/politi.jpg" alt="...">
+                        <img height="800" height="800" class="lazyload" src="<?php echo get_stylesheet_directory_uri(); ?>/img/lazyload.png" data-src="<?php get_bloginfo("site") ?>/wp-content/uploads/2015/08/politi.jpg" alt="Lorenzo Politi">
 			         </div><div class="caption">
 			        <h3>Lorenzo</h3>
 			        <p>Product manager/Designer</p>
@@ -203,7 +203,7 @@ Template Name: Company page
 			  <div class="col-sm-6 col-md-3">
 			    <div class="thumbnail">
                     <div class="imgWrapper">
-                        <img class="lazyload" data-src="<?php get_bloginfo("site") ?>/wp-content/uploads/2015/08/johanna.jpg" alt="...">
+                        <img height="800" height="800" class="lazyload" src="<?php echo get_stylesheet_directory_uri(); ?>/img/lazyload.png" data-src="<?php get_bloginfo("site") ?>/wp-content/uploads/2015/08/johanna.jpg" alt="Johanna Chmarzewska">
 			         </div>
                  <div class="caption">
 			        <h3>Joanna</h3>
@@ -214,7 +214,7 @@ Template Name: Company page
 			  <div class="col-sm-6 col-md-3">
 			    <div class="thumbnail">
                     <div class="imgWrapper">
-                        <img class="lazyload" data-src="<?php get_bloginfo("site") ?>/wp-content/uploads/2015/08/operaio.jpg" alt="...">
+                        <img height="800" height="800" class="lazyload" src="<?php echo get_stylesheet_directory_uri(); ?>/img/lazyload.png" data-src="<?php get_bloginfo("site") ?>/wp-content/uploads/2015/08/operaio.jpg" alt="Paolo">
 			         </div>
                     <div class="caption">
 			        <h3>Paolo</h3>
@@ -225,7 +225,7 @@ Template Name: Company page
 			  <div class="col-sm-6 col-md-3">
 			    <div class="thumbnail">
 			      <div class="imgWrapper">
-                    <img class="lazyload" data-src="<?php get_bloginfo("site") ?>/wp-content/uploads/2015/08/operaio-2.jpg" alt="...">
+                    <img height="800" height="800" class="lazyload" src="<?php echo get_stylesheet_directory_uri(); ?>/img/lazyload.png" data-src="<?php get_bloginfo("site") ?>/wp-content/uploads/2015/08/operaio-2.jpg" alt="Francesco">
                     </div>
 			      <div class="caption">
 			        <h3>Francesco</h3>

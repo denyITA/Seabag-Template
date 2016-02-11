@@ -138,3 +138,10 @@ $(".photos").click(function () {
         wpurl + '/wp-content/uploads/2015/10/sundial-seabag.jpg'
     ]);
 });
+
+$(".album-fabbrica").click(function () {
+    blueimp.Gallery([
+        wpTheme + "/img/company/rotolo.jpg"
+
+    ]);
+});
