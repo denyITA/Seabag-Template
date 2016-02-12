@@ -140,8 +140,41 @@ $(".photos").click(function () {
 });
 
 $(".album-fabbrica").click(function () {
-    blueimp.Gallery([
-        wpTheme + "/img/company/rotolo.jpg"
+    var a = photoClicked($(this)); // La foto cliccata
 
-    ]);
+    var b = [ // Tutte le foto
+        wpTheme + "/img/company-foto/rotoli/rotolo.jpg",
+        wpTheme + "/img/company-foto/pressa/pressa.jpg",
+        wpTheme + "/img/company-foto/stampante/stampante.jpg",
+        wpTheme + "/img/company-foto/strumenti pressa/pressa.jpg",
+        wpTheme + "/img/company-foto/seabag/seabag.jpg",
+        wpTheme + "/img/company-foto/floating/floating.jpg"
+    ];
+    c = skipPhoto(b, a); // metti in prima posizione la foto cliccata
+    blueimp.Gallery(c);
 });
+
+////////////////////////////////////////////// Functs
+
+function photoClicked(clickedPhoto) {
+    var x = $(clickedPhoto).find('img[data-src]');
+
+    x = x[0].currentSrc;
+    x = x.split("-anteprima");
+    x = x[0] + x[1];
+
+    return(x);
+}
+
+function skipPhoto(photos, skipThat) {
+    var skipToExaminate = photos;
+    //console.log(skipToExaminate);
+    var photosWithSkip = [];
+    photosWithSkip.push(skipThat);
+    for (i = 0; skipToExaminate.length > i; i ++) {
+        if (skipToExaminate !== skipThat) {
+            photosWithSkip.push(skipToExaminate[i]);
+        }
+    }
+    return(photosWithSkip);
+}

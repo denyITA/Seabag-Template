@@ -1708,6 +1708,33 @@ footer .btn-primary {
   }
 }
 
+.photos {
+    cursor: pointer;
+    &:after {
+        content: "";
+        font-family: "fontawesome";
+        transition: 1s;
+        opacity: 0;
+        background: url('../img/lente.png') rgba(0, 0, 0, 0.5);
+        background-image: url('../img/lente.svg');
+        background-position: top center;
+        background-size: 35%;
+    }
+
+    &:hover {
+        &:after {
+            transition: 1s;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: 100%;
+            opacity: 1;
+            background-position: center center;
+            background-repeat: no-repeat;
+        }
+    }
+}
 .photosDisorder {
   box-sizing: border-box;
   text-align: center;
@@ -1854,8 +1881,31 @@ footer .btn-primary {
 .album-fabbrica {
     display: block;
     margin-bottom: 25px;
+    position: relative;
+    cursor: pointer;
+    &:after {
+        content: "";
+        font-family: "fontawesome";
+        transition: 1s;
+        opacity: 0;
+        background: url('../img/lente.png') rgba(0, 0, 0, 0.5);
+        background-image: url('../img/lente.svg');
+        background-position: top center;
+        background-size: 35%;
+    }
+
     &:hover {
-        background: #222;
+        &:after {
+            transition: 1s;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: 100%;
+            opacity: 1;
+            background-position: center center;
+            background-repeat: no-repeat;
+        }
     }
     img {
         height: auto;

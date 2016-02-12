@@ -29,7 +29,7 @@
 			<div class="photos photo2">
 				<img class="lazyload" width="380" height="614" alt="seabag borsa zaino" src="<?php bloginfo('wpurl'); ?>/wp-content/uploads/2015/10/backpack-seabag.jpg">
 			</div>
-			<div class="video1">
+			<div class="photos video1">
 				<!-- <div class="videoPlayer"><i class="fa fa-play-circle-o fa-5x"></i></div> --><img class="lazyload" width="634" height="614" alt="famiglia con borsa stagna" src="<?php bloginfo('wpurl'); ?>/wp-content/uploads/2015/10/kate-seabag.jpg">
 			</div>
 			<div class="photos photo3">
