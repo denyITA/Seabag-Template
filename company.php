@@ -49,7 +49,7 @@ Template Name: Company page
 </div>
 
 <div class="schiarisci hidden-xs"></div>
-<img width="1767" height="1080" class="headerCompany" alt="fabbrica-seabag" src="<?php echo get_stylesheet_directory_uri(); ?>/img/fabbrichetta.jpg">
+<img width="1767" height="1080" class="headerCompany" alt="fabbrica-seabag" src="<?php echo get_stylesheet_directory_uri(); ?>/img/macchina.jpg">
 <section>
 	<div id="brandname">
 	<div class="container">

@@ -122,7 +122,9 @@ $("#PlayVideos").click(function () {
 });
 
 $(".photos").click(function () {
-    blueimp.Gallery([
+    var a = $(this).find('img[src]');
+    a = a[0].currentSrc; // La foto cliccata
+    var b = [ // Tutte le foto
         wpurl + '/wp-content/uploads/2015/10/seabag-bianca.jpg',
         wpurl + '/wp-content/uploads/2015/08/schiuma.jpg',
         wpurl + '/wp-content/uploads/2015/07/1007.jpg',
@@ -136,7 +138,10 @@ $(".photos").click(function () {
         wpurl + '/wp-content/uploads/2015/10/backpack-seabag.jpg',
         wpurl + '/wp-content/uploads/2015/10/kate-seabag.jpg',
         wpurl + '/wp-content/uploads/2015/10/sundial-seabag.jpg'
-    ]);
+    ],
+        c = skipPhoto(b, a); // metti in prima posizione la foto cliccata
+
+    blueimp.Gallery(c);
 });
 
 $(".album-fabbrica").click(function () {
@@ -167,12 +172,11 @@ function photoClicked(clickedPhoto) {
 }
 
 function skipPhoto(photos, skipThat) {
-    var skipToExaminate = photos;
-    //console.log(skipToExaminate);
-    var photosWithSkip = [];
+    var skipToExaminate = photos,
+        photosWithSkip = [];
     photosWithSkip.push(skipThat);
     for (i = 0; skipToExaminate.length > i; i ++) {
-        if (skipToExaminate !== skipThat) {
+        if (skipToExaminate[i] !== skipThat) {
             photosWithSkip.push(skipToExaminate[i]);
         }
     }
