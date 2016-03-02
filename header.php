@@ -34,9 +34,6 @@
 	<!-- META -->
 	<meta name="description" content="<?php echo $meta["meta_description"] ?>">
 	<meta name="keywords" content="<?php echo $meta["meta_keywords"] ?>">
-	<!-- ALTERNATE -->
-	<link rel="alternate" href="<?php bloginfo("wpurl") ?>/it/" hreflang="it">
-	<link rel="alternate" href="<?php bloginfo("wpurl") ?>/en/" hreflang="en">
 	<!-- TWITTER -->
 	<meta name="twitter:card" content="<?php echo $meta["twitter_card"] ?>" />
 	<meta name="twitter:site" content="<?php echo $meta["twitter_site"] ?>" />
@@ -60,7 +57,7 @@
     <script>
     var wpurl = "<?php bloginfo('wpurl'); ?>"; var wpTheme = "<?php echo get_stylesheet_directory_uri(); ?>"</script>
 </head>
-<body id="testata" class="<?php  get_body_class() ?>">
+<body id="testata" <?php body_class() ?>>
 
 	<!-- NAVBAR TOP -->
 	<?php if(is_front_page()) : ?>
@@ -101,6 +98,7 @@
 	        <?php wp_nav_menu(array('theme_location' => 'header-menu', 'items_wrap'      => '<ul id="%1$s" class="nav navbar-nav navbar-right">%3$s</ul>', )) ?>
 	        </nav>
 	    </nav>
+    <div class="clearfix"></div>
 	</div>
 	<!-- END NAVBAR TOP -->
 

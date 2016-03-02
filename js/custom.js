@@ -20,6 +20,7 @@ if ($("#banda1").length > 0 ) {
     function autoResize() {
         var finestra = $(window).height();
         $(".quadro-testata").css("max-height", finestra);
+        $(".quadro-testata .carousel-inner").css("height", finestra);
     };
 
     autoResize();

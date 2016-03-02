@@ -2,23 +2,6 @@
 
 <?php if ( ($_SERVER["SERVER_NAME"] === "seabag.it") || ($_SERVER["SERVER_NAME"] === "www.seabag.it") ) : ?>
 
-  <!-- Start of StatCounter Code for Default Guide -->
-<script type="text/javascript">
-var sc_project=10743303;
-var sc_invisible=0;
-var sc_security="73afd3bf";
-var scJsHost = (("https:" == document.location.protocol) ?
-"https://secure." : "http://www.");
-document.write("<sc"+"ript type='text/javascript' src='" +
-scJsHost+
-"statcounter.com/counter/counter.js'></"+"script>");
-</script>
-<noscript><div class="statcounter"><a title="hit counter"
-href="http://statcounter.com/" target="_blank"><img
-class="statcounter"
-src="http://c.statcounter.com/10743303/0/73afd3bf/0/"
-alt="hit counter"></a></div></noscript>
-<!-- End of StatCounter Code for Default Guide -->
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

@@ -2314,7 +2314,17 @@ a[rel=alternate] {
   #collassa {
     background: #FFF;
     width: 100%;
+
   }
+
+    #collassa #lingua {
+      .navbar-btn {
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+        margin-right: 30px;
+        margin-left: 15px;
+      }
+    }
   .nav > li > a {
     &:focus, &:hover {
       background: #FFF;
@@ -2347,7 +2357,7 @@ a[rel=alternate] {
     display: none;
   }
   .navbar-nav > li > a:nth-last-child(1) {
-    padding-bottom: 20px;
+    padding-bottom: 10px;
   }
   .mobile {
     display: block;

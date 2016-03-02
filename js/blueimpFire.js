@@ -151,9 +151,9 @@ $(".album-fabbrica").click(function () {
         wpTheme + "/img/company-foto/rotoli/rotolo.jpg",
         wpTheme + "/img/company-foto/pressa/pressa.jpg",
         wpTheme + "/img/company-foto/stampante/stampante.jpg",
-        wpTheme + "/img/company-foto/strumenti pressa/pressa.jpg",
+        wpTheme + "/img/company-foto/macchinario/macchinario.jpg",
         wpTheme + "/img/company-foto/seabag/seabag.jpg",
-        wpTheme + "/img/company-foto/floating/floating.jpg"
+        wpTheme + "/img/company-foto/strumenti pressa/pressa.jpg"
     ];
     c = skipPhoto(b, a); // metti in prima posizione la foto cliccata
     blueimp.Gallery(c);

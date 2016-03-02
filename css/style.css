@@ -2239,84 +2239,90 @@ a[rel=alternate] {
   #collassa {
     background: #FFF;
     width: 100%; }
-  /* line 2319, C:/xampp/htdocs/wp-content/themes/seabagtemplate/css/style.scss */
+  /* line 2321, C:/xampp/htdocs/wp-content/themes/seabagtemplate/css/style.scss */
+  #collassa #lingua .navbar-btn {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    margin-right: 30px;
+    margin-left: 15px; }
+  /* line 2329, C:/xampp/htdocs/wp-content/themes/seabagtemplate/css/style.scss */
   .nav > li > a:focus, .nav > li > a:hover {
     background: #FFF; }
-  /* line 2323, C:/xampp/htdocs/wp-content/themes/seabagtemplate/css/style.scss */
+  /* line 2333, C:/xampp/htdocs/wp-content/themes/seabagtemplate/css/style.scss */
   .navbar-collapse {
     margin-top: 0;
     border-top: 0; }
-  /* line 2327, C:/xampp/htdocs/wp-content/themes/seabagtemplate/css/style.scss */
+  /* line 2337, C:/xampp/htdocs/wp-content/themes/seabagtemplate/css/style.scss */
   #menu-azienda {
     margin-top: 0; }
-  /* line 2330, C:/xampp/htdocs/wp-content/themes/seabagtemplate/css/style.scss */
+  /* line 2340, C:/xampp/htdocs/wp-content/themes/seabagtemplate/css/style.scss */
   .quadro-testata {
     height: 77vh;
     max-height: 100%; }
-  /* line 2334, C:/xampp/htdocs/wp-content/themes/seabagtemplate/css/style.scss */
+  /* line 2344, C:/xampp/htdocs/wp-content/themes/seabagtemplate/css/style.scss */
   .langSel {
     top: 75px; }
-  /* line 2337, C:/xampp/htdocs/wp-content/themes/seabagtemplate/css/style.scss */
+  /* line 2347, C:/xampp/htdocs/wp-content/themes/seabagtemplate/css/style.scss */
   .fakenav {
     height: 50px;
     opacity: 4 !important; }
-  /* line 2341, C:/xampp/htdocs/wp-content/themes/seabagtemplate/css/style.scss */
+  /* line 2351, C:/xampp/htdocs/wp-content/themes/seabagtemplate/css/style.scss */
   .navbar-nav > li > a {
     padding-bottom: 0;
     background: #FFF;
     padding-top: 20px; }
-  /* line 2346, C:/xampp/htdocs/wp-content/themes/seabagtemplate/css/style.scss */
+  /* line 2356, C:/xampp/htdocs/wp-content/themes/seabagtemplate/css/style.scss */
   .navbar-brand {
     display: none; }
-  /* line 2349, C:/xampp/htdocs/wp-content/themes/seabagtemplate/css/style.scss */
+  /* line 2359, C:/xampp/htdocs/wp-content/themes/seabagtemplate/css/style.scss */
   .navbar-nav > li > a:nth-last-child(1) {
-    padding-bottom: 20px; }
-  /* line 2352, C:/xampp/htdocs/wp-content/themes/seabagtemplate/css/style.scss */
+    padding-bottom: 10px; }
+  /* line 2362, C:/xampp/htdocs/wp-content/themes/seabagtemplate/css/style.scss */
   .mobile {
     display: block;
     padding-top: 7px;
     text-align: right;
     cursor: pointer; }
-    /* line 2357, C:/xampp/htdocs/wp-content/themes/seabagtemplate/css/style.scss */
+    /* line 2367, C:/xampp/htdocs/wp-content/themes/seabagtemplate/css/style.scss */
     .mobile .fa-bars {
       border: solid 1px;
       border-radius: 5px;
       padding: 3px 6px; }
-  /* line 2363, C:/xampp/htdocs/wp-content/themes/seabagtemplate/css/style.scss */
+  /* line 2373, C:/xampp/htdocs/wp-content/themes/seabagtemplate/css/style.scss */
   header h1 {
     font-size: 2.3em; }
-  /* line 2366, C:/xampp/htdocs/wp-content/themes/seabagtemplate/css/style.scss */
+  /* line 2376, C:/xampp/htdocs/wp-content/themes/seabagtemplate/css/style.scss */
   #seabagInfo a {
     height: 500px; }
-  /* line 2369, C:/xampp/htdocs/wp-content/themes/seabagtemplate/css/style.scss */
+  /* line 2379, C:/xampp/htdocs/wp-content/themes/seabagtemplate/css/style.scss */
   .album figure {
     width: 100%;
     height: 260px;
     float: left;
     overflow: hidden;
     position: relative; }
-    /* line 2375, C:/xampp/htdocs/wp-content/themes/seabagtemplate/css/style.scss */
+    /* line 2385, C:/xampp/htdocs/wp-content/themes/seabagtemplate/css/style.scss */
     .album figure img {
       right: 0;
       width: 100%; }
-  /* line 2380, C:/xampp/htdocs/wp-content/themes/seabagtemplate/css/style.scss */
+  /* line 2390, C:/xampp/htdocs/wp-content/themes/seabagtemplate/css/style.scss */
   #copertine {
     position: relative; }
-    /* line 2382, C:/xampp/htdocs/wp-content/themes/seabagtemplate/css/style.scss */
+    /* line 2392, C:/xampp/htdocs/wp-content/themes/seabagtemplate/css/style.scss */
     #copertine img {
       position: relative;
       top: 0;
       z-index: 0;
       transition: .5s;
       margin-top: 15px; }
-      /* line 2388, C:/xampp/htdocs/wp-content/themes/seabagtemplate/css/style.scss */
+      /* line 2398, C:/xampp/htdocs/wp-content/themes/seabagtemplate/css/style.scss */
       #copertine img:hover {
         top: 0;
         filter: url("data:image/svg+xml;utf8,&lt;svgxmlns='http://www.w3.org/2000/svg'&gt;&lt;filterid='grayscale'&gt;&lt;feColorMatrixtype='matrix'values='0.33330.33330.3333000.33330.33330.3333000.33330.33330.33330000010'/&gt;&lt;/filter&gt;&lt;/svg&gt;#grayscale");
         filter: gray;
         -webkit-filter: grayscale(100%); } }
 
-/* line 2398, C:/xampp/htdocs/wp-content/themes/seabagtemplate/css/style.scss */
+/* line 2408, C:/xampp/htdocs/wp-content/themes/seabagtemplate/css/style.scss */
 .premi {
   position: relative;
   padding-top: 10em;
@@ -2325,14 +2331,14 @@ a[rel=alternate] {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right top; }
-  /* line 2406, C:/xampp/htdocs/wp-content/themes/seabagtemplate/css/style.scss */
+  /* line 2416, C:/xampp/htdocs/wp-content/themes/seabagtemplate/css/style.scss */
   .premi h3 {
     font-size: 2em;
     text-transform: uppercase;
     margin-top: 0;
     text-align: center;
     color: #FFF; }
-  /* line 2413, C:/xampp/htdocs/wp-content/themes/seabagtemplate/css/style.scss */
+  /* line 2423, C:/xampp/htdocs/wp-content/themes/seabagtemplate/css/style.scss */
   .premi .premiDescr {
     position: absolute;
     color: #FFF;
@@ -2340,23 +2346,23 @@ a[rel=alternate] {
     left: 0;
     width: 100%;
     text-align: center; }
-    /* line 2420, C:/xampp/htdocs/wp-content/themes/seabagtemplate/css/style.scss */
+    /* line 2430, C:/xampp/htdocs/wp-content/themes/seabagtemplate/css/style.scss */
     .premi .premiDescr h3 {
       font-size: 2em;
       text-transform: uppercase;
       margin-top: 0; }
 
-/* line 2428, C:/xampp/htdocs/wp-content/themes/seabagtemplate/css/style.scss */
+/* line 2438, C:/xampp/htdocs/wp-content/themes/seabagtemplate/css/style.scss */
 .openPrize {
   border-bottom: solid 1px #dad9d9; }
 
-/* line 2432, C:/xampp/htdocs/wp-content/themes/seabagtemplate/css/style.scss */
+/* line 2442, C:/xampp/htdocs/wp-content/themes/seabagtemplate/css/style.scss */
 .openPremi {
   text-align: center;
   padding: 20px;
   position: relative;
   top: 1px; }
-  /* line 2437, C:/xampp/htdocs/wp-content/themes/seabagtemplate/css/style.scss */
+  /* line 2447, C:/xampp/htdocs/wp-content/themes/seabagtemplate/css/style.scss */
   .openPremi span {
     border-radius: 50%;
     border: solid 1px #fd2e3a;
@@ -2370,21 +2376,21 @@ a[rel=alternate] {
     transition: .5s ease;
     color: #FFF;
     cursor: pointer; }
-    /* line 2450, C:/xampp/htdocs/wp-content/themes/seabagtemplate/css/style.scss */
+    /* line 2460, C:/xampp/htdocs/wp-content/themes/seabagtemplate/css/style.scss */
     .openPremi span i {
       position: relative;
       transition: .5s ease;
       top: 0; }
-    /* line 2455, C:/xampp/htdocs/wp-content/themes/seabagtemplate/css/style.scss */
+    /* line 2465, C:/xampp/htdocs/wp-content/themes/seabagtemplate/css/style.scss */
     .openPremi span:hover {
       transition: .5s ease;
       background: #e30613; }
-      /* line 2458, C:/xampp/htdocs/wp-content/themes/seabagtemplate/css/style.scss */
+      /* line 2468, C:/xampp/htdocs/wp-content/themes/seabagtemplate/css/style.scss */
       .openPremi span:hover i {
         top: 5px;
         transition: .5s ease; }
 
-/* line 2466, C:/xampp/htdocs/wp-content/themes/seabagtemplate/css/style.scss */
+/* line 2476, C:/xampp/htdocs/wp-content/themes/seabagtemplate/css/style.scss */
 #PlayVideos {
   background: url(/wp-content/themes/seabagtemplate/img/video-play.png), url(https://img.youtube.com/vi/kUwBjT7Bu8s/maxresdefault.jpg);
   width: 100%;
@@ -2394,21 +2400,21 @@ a[rel=alternate] {
   background-repeat: no-repeat; }
 
 @media screen and (min-width: 1680px) {
-  /* line 2477, C:/xampp/htdocs/wp-content/themes/seabagtemplate/css/style.scss */
+  /* line 2487, C:/xampp/htdocs/wp-content/themes/seabagtemplate/css/style.scss */
   #seabagInfo a {
     height: 600px; } }
 
 @media screen and (min-width: 2000px) {
-  /* line 2483, C:/xampp/htdocs/wp-content/themes/seabagtemplate/css/style.scss */
+  /* line 2493, C:/xampp/htdocs/wp-content/themes/seabagtemplate/css/style.scss */
   .premi {
     padding-top: 20em;
     padding-bottom: 20em; } }
 
-/* line 2489, C:/xampp/htdocs/wp-content/themes/seabagtemplate/css/style.scss */
+/* line 2499, C:/xampp/htdocs/wp-content/themes/seabagtemplate/css/style.scss */
 .statcounter {
   display: none; }
 
-/* line 2493, C:/xampp/htdocs/wp-content/themes/seabagtemplate/css/style.scss */
+/* line 2503, C:/xampp/htdocs/wp-content/themes/seabagtemplate/css/style.scss */
 #miniLogo {
   background-image: url("../img/seabag-minilogo.png");
   background-position: center center;

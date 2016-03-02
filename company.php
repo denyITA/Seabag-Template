@@ -38,8 +38,10 @@ Template Name: Company page
 
             </button>
           <ul class="dropdown-menu">
+              <li>
               <?php
               echo do_shortcode('[cml_show_available_langs]') ?>
+              </li>
           </ul>
         </li>
       </ul>
@@ -49,7 +51,7 @@ Template Name: Company page
 </div>
 
 <div class="schiarisci hidden-xs"></div>
-<img width="1767" height="1080" class="headerCompany" alt="fabbrica-seabag" src="<?php echo get_stylesheet_directory_uri(); ?>/img/macchina.jpg">
+<img width="1767" height="1080" class="headerCompany" alt="fabbrica-seabag" src="<?php echo get_stylesheet_directory_uri(); ?>/img/seabagcolorate.jpg">
 <section>
 	<div id="brandname">
 	<div class="container">
@@ -113,17 +115,17 @@ Template Name: Company page
                         </div>
                         <div class="col-xs-6 col-md-4">
                             <span class="album-fabbrica">
+                              <img width="600" height="600" class="lazyload" data-src="<?php echo get_stylesheet_directory_uri(); ?>/img/company-foto/macchinario/macchinario-anteprima.jpg" alt="Seabag macchinario">
+                            </span>
+                        </div>
+                        <div class="col-xs-6 col-md-4">
+                            <span class="album-fabbrica">
+                              <img width="600" height="600" class="lazyload" data-src="<?php echo get_stylesheet_directory_uri(); ?>/img/company-foto/seabag/seabag-anteprima.jpg" alt="Seabag stampante">
+                            </span>
+                        </div>
+                        <div class="col-xs-6 col-md-4">
+                            <span class="album-fabbrica">
                               <img width="600" height="600" class="lazyload" data-src="<?php echo get_stylesheet_directory_uri(); ?>/img/company-foto/strumenti pressa/pressa-anteprima.jpg" alt="Strumenti Pressa Seabag">
-                            </span>
-                        </div>
-                        <div class="col-xs-6 col-md-4">
-                            <span class="album-fabbrica">
-                              <img width="600" height="600" class="lazyload" data-src="<?php echo get_stylesheet_directory_uri(); ?>/img/company-foto/seabag/seabag-anteprima.jpg" alt="Seabag stampate">
-                            </span>
-                        </div>
-                        <div class="col-xs-6 col-md-4">
-                            <span class="album-fabbrica">
-                              <img width="600" height="600" class="lazyload" data-src="<?php echo get_stylesheet_directory_uri(); ?>/img/company-foto/floating/floating-anteprima.jpg" alt="Seabag galleggiante">
                             </span>
                         </div>
                 </div>
